@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,900&display=swap"
+            rel="stylesheet">
+    </p>
+    <p><br></p>
+    <div
+        style="font-family: 'Lato', sans-serif;width:900px;text-align:justify;border-left: 5px solid #3e3354;padding-left: 20px;">
+        O tempo estimado para finaliza&ccedil;&atilde;o de todos os cen&aacute;rios de testes em
+        homologa&ccedil;&atilde;o e produ&ccedil;&atilde;o no Rollout s&atilde;o de&nbsp;<strong>30
+            dia</strong><strong>s</strong>.&nbsp;<br>E adicionalmente teremos outros <strong>15 dias</strong> de
+        acompanhamento na Opera&ccedil;&atilde;o Assistida.&nbsp;</div>
+    <p><br></p>
+    <table border="1" data-tablelook="1696" data-tablestyle="MsoTableGrid" id="isPasted"
+        style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; table-layout: fixed; width: 0px; overflow: visible; border-collapse: collapse; empty-cells: show; position: relative; color: rgb(0, 0, 0); font-family: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background: transparent; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-spacing: 0px;'>
+        <tbody
+            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td colspan="2" data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(147, 101, 184); border: 1px solid rgb(82, 82, 82); width: 608px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(255, 255, 255); font-size: 11pt; font-style: normal; text-transform: none; line-height: 21.5833px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: bold;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Etapas
+                                        do Pre-Rollout&nbsp;em Homologa&ccedil;&atilde;o</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 21.5833px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(255, 255, 255);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(82, 82, 82); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(255, 255, 255); font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold;"><span
+                                        data-ccp-charstyle="Strong"
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">ATIVIDADES</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(255, 255, 255);">&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(82, 82, 82); border: 1px solid rgb(82, 82, 82); width: 313px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(255, 255, 255); font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold;"><span
+                                        data-ccp-charstyle="Strong"
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">TEMPO
+                                        MEDIDO PARA EXECU&Ccedil;&Atilde;O</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(255, 255, 255);">&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Configurar
+                                        e validar a integra&ccedil;&atilde;o entre os ambientes atrav&eacute;s do ticket
+                                        de premissas.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td colspan="1" data-celllook="69905" rowspan="4"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 313px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 14pt; font-style: normal; text-transform: none; line-height: 26.9792px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: bold;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">7
+                                        dias</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 14pt; line-height: 26.9792px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 64px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Orienta&ccedil;&atilde;o
+                                        aos envolvidos do lado do distribuidor a utiliza&ccedil;&atilde;o da fermenta de
+                                        testes Monday.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 51px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Realizar
+                                        os primeiros testes seguindo os cen&aacute;rios
+                                        de&nbsp;Pre-Rollout&nbsp;detalhados no quadro.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Aguardando
+                                        o distribuidor validar e integrar os dados. Anexar evidencias
+                                        no&nbsp;</span><span id="isPasted"
+                                        style='color: rgb(85, 85, 85); font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Monday</span>
+                                    <span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p><br></p>
+    <table border="1" data-tablelook="1696" data-tablestyle="MsoTableGrid" id="isPasted"
+        style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; table-layout: fixed; width: 0px; overflow: visible; border-collapse: collapse; empty-cells: show; position: relative; color: rgb(0, 0, 0); font-family: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background: transparent; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-spacing: 0px;'>
+        <tbody
+            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td colspan="2" data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(147, 101, 184); border: 1px solid rgb(82, 82, 82); width: 608px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(255, 255, 255); font-size: 11pt; font-style: normal; text-transform: none; line-height: 21.5833px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: bold;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Testes
+                                        completos em Homologa&ccedil;&atilde;o</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 21.5833px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 24px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(82, 82, 82); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(255, 255, 255); font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold;"><span
+                                        data-ccp-charstyle="Strong"
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">ATIVIDADES</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(255, 255, 255);">&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(82, 82, 82); border: 1px solid rgb(82, 82, 82); width: 313px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(255, 255, 255); font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold;"><span
+                                        data-ccp-charstyle="Strong"
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">TEMPO
+                                        MEDIDO PARA EXECU&Ccedil;&Atilde;O</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(255, 255, 255);">&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 60px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Iniciar
+                                        os testes completos em homologa&ccedil;&atilde;o seguindo os cen&aacute;rios
+                                        detalhados no quadro.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td colspan="1" data-celllook="69905" rowspan="4"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 313px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 14pt; font-style: normal; text-transform: none; line-height: 26.9792px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: bold;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">15
+                                        dias</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 14pt; line-height: 26.9792px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Validar
+                                        as respostas do ERP, a estrutura das requisi&ccedil;&otilde;es recebidas, a
+                                        integra&ccedil;&atilde;o dos retornos e verifica&ccedil;&atilde;o das
+                                        evidencias&nbsp;anexadas&nbsp;ap&oacute;s cada
+                                        cen&aacute;rio.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Orienta&ccedil;&atilde;o
+                                        e detalhamento dos processos realizados para maior entendimento do
+                                        fluxo.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Orienta&ccedil;&atilde;o
+                                        ou valida&ccedil;&atilde;o de um novo teste caso seja necess&aacute;rio. Caso
+                                        n&atilde;o, finaliza&ccedil;&atilde;o da
+                                        homologa&ccedil;&atilde;o.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p><br></p>
+    <table border="1" data-tablelook="1696" data-tablestyle="MsoTableGrid" id="isPasted"
+        style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; table-layout: fixed; width: 0px; overflow: visible; border-collapse: collapse; empty-cells: show; position: relative; color: rgb(0, 0, 0); font-family: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background: transparent; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-spacing: 0px;'>
+        <tbody
+            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td colspan="2" data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(147, 101, 184); border: 1px solid rgb(82, 82, 82); width: 608px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(255, 255, 255); font-size: 11pt; font-style: normal; text-transform: none; line-height: 21.5833px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: bold;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Testes
+                                        completos em Produ&ccedil;&atilde;o</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 21.5833px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 24px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(82, 82, 82); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(255, 255, 255); font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold;"><span
+                                        data-ccp-charstyle="Strong"
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">ATIVIDADES</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(255, 255, 255);">&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(82, 82, 82); border: 1px solid rgb(82, 82, 82); width: 313px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(255, 255, 255); font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold;"><span
+                                        data-ccp-charstyle="Strong"
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">TEMPO
+                                        MEDIDO PARA EXECU&Ccedil;&Atilde;O</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(255, 255, 255);">&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 45px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Configurar
+                                        e validar a integra&ccedil;&atilde;o entre os ambientes atrav&eacute;s do ticket
+                                        de premissas.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td colspan="1" data-celllook="69905" rowspan="4"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 313px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 14pt; font-style: normal; text-transform: none; line-height: 26.9792px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: bold;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">7
+                                        dias</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 14pt; line-height: 26.9792px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 42px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Realizar
+                                        o processo de testes de acordo com o especificado no quadro.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Validar
+                                        e evidenciar todos os envios realizados, e confirmar o recebimento do lado do
+                                        distribuidor. Sempre aguardar aprova&ccedil;&atilde;o dos dados antes de seguir
+                                        para a seguinte etapa.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Cancelar
+                                        os envios de pedidos realizados, e inabilitar os clientes cadastrados nos testes
+                                        no momento de finalizar.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p><br></p>
+    <table border="1" data-tablelook="1696" data-tablestyle="MsoTableGrid" id="isPasted"
+        style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; table-layout: fixed; width: 0px; overflow: visible; border-collapse: collapse; empty-cells: show; position: relative; color: rgb(0, 0, 0); font-family: "Segoe UI", "Segoe UI Web", Arial, Verdana, sans-serif; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background: transparent; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-spacing: 0px;'>
+        <tbody
+            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: auto;">
+                <td colspan="2" data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(147, 101, 184); border: 1px solid rgb(82, 82, 82); width: 608px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(255, 255, 255); font-size: 11pt; font-style: normal; text-transform: none; line-height: 21.5833px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: bold;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Opera&ccedil;&atilde;o
+                                        Assistida</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 21.5833px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 24px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(82, 82, 82); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(255, 255, 255); font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold;"><span
+                                        data-ccp-charstyle="Strong"
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">ATIVIDADES</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(255, 255, 255);">&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(82, 82, 82); border: 1px solid rgb(82, 82, 82); width: 313px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none !important; color: rgb(255, 255, 255); font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-weight: bold;"><span
+                                        data-ccp-charstyle="Strong"
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">TEMPO
+                                        MEDIDO PARA EXECU&Ccedil;&Atilde;O</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 11pt; line-height: 18.3458px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; color: rgb(255, 255, 255);">&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr
+                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; height: 42px;">
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: top; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 294px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: justify; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 10pt; font-style: normal; text-transform: none; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: normal;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Acompanhar
+                                        15 dias corridos as integra&ccedil;&otilde;es ap&oacute;s iniciado o Go Live.
+                                        Enviar Reportes di&aacute;rios das requisi&ccedil;&otilde;es enviadas e
+                                        recebidas e evidenciar no&nbsp;</span><span id="isPasted"
+                                        style='color: rgb(85, 85, 85); font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Monday</span><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">.</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":6,"335551620":6,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 10pt; line-height: 19.425px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td data-celllook="69905"
+                    style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; vertical-align: middle; overflow: visible; background-color: rgb(255, 255, 255); border: 1px solid rgb(82, 82, 82); width: 313px;">
+                    <div
+                        style="margin: 0px; padding: 0px 7px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible;">
+                        <div
+                            style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow: visible; cursor: text; clear: both; position: relative; direction: ltr;">
+                            <p
+                                style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; white-space: pre-wrap; font-weight: normal; font-style: normal; vertical-align: baseline; font-kerning: none; background-color: transparent; color: windowtext; text-align: center; text-indent: 0px;">
+                                <span data-contrast="none" lang="PT-BR"
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant: normal; color: rgb(85, 85, 85); font-size: 14pt; font-style: normal; text-transform: none; line-height: 26.9792px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; font-weight: bold;'><span
+                                        style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">15
+                                        dias</span></span><span
+                                    data-ccp-props='{"201341983":0,"335551550":2,"335551620":2,"335559740":259}'
+                                    style='margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-size: 14pt; line-height: 26.9792px; font-family: "Noto Sans", "Noto Sans_EmbeddedFont", "Noto Sans_MSFontService", sans-serif; color: rgb(85, 85, 85);'>&nbsp;</span>
+                            </p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p><br></p>
+</body>
+
+</html>

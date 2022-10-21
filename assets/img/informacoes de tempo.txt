@@ -1,0 +1,336 @@
+Média de tempo para os cenários de testes do rollout
+
+Tempo total: 80 horas
+
+ 
+
+Total de tempo para testes em HCP 64h10m
+
+Ticket Premissas HCP: : Prazo total estipulado: 2h
+
+Validar as informações no chamado para configuração no setup
+Validar o retorno apresentado para os endpoints de cliente, pedido e pagamento do distribuidor
+Configurar o setup de homologação
+Enviar os endpoints de homologação Infracommerce (estoque, preço, status de cliente, limite de crédito e tracking) e suas credencias de acesso ao distribuidor e solicitar a configuração do lado do distribuidor.
+
+
+ESTOQUE: Prazo total estipulado 2h
+
+Entendemos que o distribuidor está com as estruturas configuradas , porem em alguns casos a uma divergência na comunicação e cadastro de produtos em homologação.
+Como se trata de primeiro teste de comunicação entre o ERP do distribuidor e plataforma Infracommerce, pode ser necessário algumas validações para estabelecer a comunicação.
+Orientação ou validação de um novo teste de estoque caso seja  necessário
+Atualizar os dados  e anexar evidências de ambos os lados no Monday e validar a evidência de envio de estoque do distribuidor.
+
+
+PREÇO: Prazo total estipulado 2h
+
+2.01 - Envio de preço para vários skus com todas as tabelas de preço
+
+Solicitar o envio de preços para as tabelas de preço DFL, CRL 7, CRL 14, CRL 21 e CRL 28.
+DFL - Preço para pagamento via boleto a vista
+CRL 7   -  Preço para pagamento a prazo de 7 dias.
+CRL 14 -  Preço para pagamento a prazo de 14 dias.
+CRL 21 -  Preço para pagamento a prazo de 21 dias.
+CRL 28 -  Preço para pagamento a prazo de 28 dias.
+2.02 - Cálculo do preço de Cartão de Crédito
+
+Quando o envio de preço da tabela DFL é realizado, a plataforma efetua automaticamente o calculo da taxa de cartão de crédito(preço CRD), quando a mesma é usada. Estipulamos um tempo para orientação ao distribuidor. Costuma ter divergências de entendimento e aplicação maneira de como é tratado internamente pelo distribuidor.
+É passado uma orientação de como esperamos que seja o fluxo e como é feito o processo do lado da Infracommerce.
+Orientação ou validação de um novo teste caso seja  necessário
+Atualizar os dados  e anexar evidências de ambos os lados no Monday 
+CLIENTE: Prazo total estipulado 8:10
+
+3.01 - Novo cliente aprovado : Prazo estipulado 1h
+
+(Infra) Coletar um CNPJ para teste, fazer o cadastro e validar o envio (20 minutos)
+Aguardando o distribuidor validar e integrar o cadastro enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+3.02 - Novo cliente reprovado: Prazo estipulado 1h
+
+(Infra) Coletar um CNPJ para teste, fazer o cadastro e validar o envio (20 minutos)
+Aguardando o distribuidor validar e integrar o cadastro enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+3.03 - Novo cliente pendente de análise manual: Prazo estipulado 1h
+
+(Infra) Coletar um CNPJ para teste, fazer o cadastro e validar o envio (20 minutos)
+Aguardando o distribuidor validar e integrar o cadastro enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+3.04 - Atualização de cadastro: Prazo estipulado 1h
+
+(Infra) Coletar um CNPJ para teste, fazer o cadastro e validar o envio (10 minutos)
+Aguardando o distribuidor validar e integrar o cadastro enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+3.05 - Distribuidor bloqueia cliente: Prazo estipulado 1h
+
+(Infra) Coletar um CNPJ para teste, fazer o cadastro e validar o envio (20 minutos)
+Aguardando o distribuidor validar e integrar o cadastro enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+3.06 - Distribuidor aprova cliente: Prazo estipulado 1h
+
+(Infra) Coletar um CNPJ para teste, fazer o cadastro e validar o envio (10 minutos)
+Aguardando o distribuidor validar e integrar o cadastro enviado (30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+
+
+
+
+LIMITE DE CRÉDITO: Prazo estipulado total 2h40m
+
+4.01 - O Primeiro limite de crédito para o cliente: Prazo estipulado 1h
+
+(Infra) Validação dos dados envias e se a integração foi feita com sucesso. (20 minutos )
+Distribuidor faz o envio de atualização de limite de crédito  (20 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(20 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+4.02 - Remoção do limite de crédito para o cliente: Prazo estipulado 50m
+
+(Infra) Validação dos dados envias e se a integração foi feita com sucesso. (20 minutos )
+Distribuidor faz o envio de atualização de limite de crédito  (20 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+4.03 - Atualização do limite de crédito para o cliente: Prazo estipulado 50m
+
+Distribuidor faz o envio de atualização de limite de crédito  (20 minutos)
+(Infra) Validação dos dados envias e se a integração foi feita com sucesso. (20 minutos )
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+
+
+PEDIDO: Prazo total estipulado 17h
+
+5.01 - Pedido pago com boleto à vista: Prazo estipulado 1h20m 
+
+(Infra) Efetua um pedido de teste de acordo com o cenário  (10 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.02 - Pedido pago com cartão de crédito: Prazo estipulado 1h20m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário  (10 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.03 - Pedido pago com vale troca: Prazo estipulado 1h30m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário, e configuração interna para gerar o vale troca   (20 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.04 - Pedido pago com Boleto Faturado para 7 dias: Prazo estipulado 1h20m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário  (10 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação e validação de um novo teste (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.05 - Pedido pago com vale troca e boleto à vista: Prazo estipulado 1h20m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário  (10 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.06 - Pedido com muitos SKU's: Prazo estipulado 1h30m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário  (10 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Atualização de dados  e anexar evidências de ambos os lados (10 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.07 - Pedido com promoção em produto: Prazo estipulado 1h30m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário, e configuração interna para gerar a promoção   (20 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.08 - Pedido com promoção em subtotal: Prazo estipulado 1h30m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário, e configuração interna para gerar a promoção   (20 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.09 - Pedido com KIT bonificado: Prazo estipulado 1h45m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário, e configuração interna para gerar o KIT  (20 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.10 - Pedido já integrado: Prazo estipulado 1h30m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário, e configuração interna para gerar o vale troca   (20 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.11 - Pedido efetuado por um cliente PREAPV: Prazo estipulado 1h20m
+
+(Infra) Efetua um pedido de teste de acordo com o cenário  (10 minutos)
+Aguardando o distribuidor validar e integrar o pedido enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+5.12 - Pedido com produtos que são caixas: Prazo estipulado 1h20m
+
+(Infra) Coletar um CNPJ para teste, fazer o cadastro e validar o envio (10 minutos)
+Aguardando o distribuidor validar e integrar o cadastro enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+
+
+
+
+PAGAMENTO:  Prazo total estipulado 10h50m
+
+6.01 - Pedido pago com boleto à vista: Prazo estipulado 1h30m
+
+(Infra) Gerar um pedido e fazer o envio do pagamento  (20 minutos)
+Aguardando o distribuidor validar e integrar pagamento do pedido  enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+6.02 - Pedido com boleto expirado: Prazo estipulado 1h30m
+
+(Infra) Gerar um pedido e fazer o envio do pagamento  (20 minutos)
+Aguardando o distribuidor validar e integrar pagamento do pedido  enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+6.03 - Cartão de crédito aprovado: Prazo estipulado 1h30m
+
+(Infra) Gerar um pedido e fazer o envio do pagamento  (20 minutos)
+Aguardando o distribuidor validar e integrar pagamento do pedido  enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+6.04 - Cartão de crédito reprovado: Prazo estipulado 1h30m
+
+(Infra) Gerar um pedido e fazer o envio do pagamento  (20 minutos)
+Aguardando o distribuidor validar e integrar pagamento do pedido  enviado (30 minutos)
+Orientação ou validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+6.05 - Pedido pago com vale troca: Prazo estipulado 1h30m
+
+(Infra) Gerar um pedido e fazer o envio do pagamento  (20 minutos)
+Aguardando o distribuidor validar e integrar pagamento do pedido  enviado (30 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+6.06 - Pedido pago com Boleto Fatura e Aprovado: Prazo estipulado 1h40m
+
+(Infra) Gerar um pedido e fazer o envio do pagamento  (20 minutos)
+Aguardando o distribuidor validar e integrar pagamento do pedido  enviado (30 minutos)
+Validar a integração do da aprovação “MAP” - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+6.07 - Pedido pago com Boleto Fatura e Recusado: Prazo estipulado 1h40m
+
+(Infra) Gerar um pedido e fazer o envio do pagamento  (20 minutos)
+Aguardando o distribuidor validar e integrar pagamento do pedido  enviado (30 minutos)
+Validar a integração do da reprovação “MNA” - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+
+
+TRACKING: Prazo estipulado 19:10
+
+7.01 - Pedido pago com Boleto Faturado e Cancelado : Prazo estipulado 1h40m
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “CAN” (30 minutos)
+Validar o recebimento e  a integração da tracking enviada “CAN” - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualização de dados  e anexar evidências de ambos os lados (10 minutos)
+7.02 - Pedido pago com Boleto à Vista / Cartão de Crédito e Cancelado: Prazo estipulado 1h40m
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “CAN” (30 minutos)
+Validar o recebimento e  a integração da tracking enviada “CAN” - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+7.03 - Pedido entra em Separação e embalagem: Prazo estipulado 1h40m
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “WMS” (30 minutos)
+Validar o recebimento e  a integração da tracking enviada “WMS” - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+7.04 - Pedido é parcialmente faturado: Prazo estipulado 2h10m
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “NFS e FAT” (1 hora)
+Validar o recebimento e  a integração da tracking enviada “NFS e FAT”   - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+7.05 - Pedido com promoção é parcialmente faturado: Prazo estipulado 2:10
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “NFS e FAT” (1 hora)
+Validar o recebimento e  a integração da tracking enviada “NFS e FAT”   - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+7.06 - Pedido é faturado por completo: Prazo estipulado 2:10 
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “NFS e FAT” (1 hora)
+Validar o recebimento e  a integração da tracking enviada “NFS e FAT”  - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+7.07 - Pedido com caixa é faturado por completo: Prazo estipulado 2:10
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “NFS e FAT” (1 hora)
+Validar o recebimento e  a integração da tracking enviada “NFS e FAT”  - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+7.08 - Pedido com KIT bonificado e faturado por completo: Prazo estipulado 2:10
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “NFS e FAT” (1 hora)
+Validar o recebimento e  a integração da tracking enviada “NFS e FAT”   - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+7.09 - Pedido é Despachado: Prazo estipulado 1:40
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “ETR” (30 minutos)
+Validar o recebimento e  a integração da tracking enviada “ETR”  - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+7.10 - Pedido é Entregue: Prazo estipulado 1:40
+
+(Infra) é necessário fazer um pedido de acordo com o cenário, e aguardar o envio da TRK (20 minutos)
+Aguardando o distribuidor validar o pedido, e enviar a tracking “ENT” (30 minutos)
+Validar o recebimento e  a integração da tracking enviada “ENT”  - (10 minutos)
+Orientação ou  validação de um novo teste caso seja  necessário(30 minutos)
+Atualizar de dados  e anexar evidências de ambos os lados (10 minutos)
+ 
+
+Testes em Produção : Prazo total estipulado 15:50 horas
+ 
+
+Ticket Premissas PRD Prazo total estipulado 2 horas
+
+Validar as informações no chamado para configuração no setup
+Validar se o retorno de endpoints do distribuidor
+Configurar o setup de homologação
+
+
+1 - Enviar estoque e preço para todas SKU’s: Prazo estipulado 3 horas
+
+Acompanhar a integração de estoque e preço, gerar um relatório após integrar todos os envios. Com a aprovação do distribuidor seguir para a próxima etapa.
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+2 - Cadastro de Cliente: Prazo estipulado 1:50
+
+Tempo estipulado para cadastrar o cliente
+Distribuidor subir no ambiente e enviar uma aprovação
+Distribuidor deve mandar um limite de crédito
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+3 – Envio de dois pedidos de teste para validação em PRD: Prazo estipulado 2 horas
+
+Gerar e acompanhar a integração e fazer 2 pedidos de teste.
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+4 – Retorno de cancelamento de pedidos, equivalente ao envio da TRK CAN : Prazo estipulado 3 horas
+
+Quando o pedido de teste for integrado no ERP do distribuidor, para finalizar o seu ciclo de vida, é necessário integrar a TRAK de CAN
+Orientar o distribuidor e acompanhar a integração.
+Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)
+
+5 - Reprocessamento da Faixa de CEP: Prazo estipulado 5 horas
+
+ Atualizar os dados  e anexar evidências de ambos os lados no Monday (10 minutos)

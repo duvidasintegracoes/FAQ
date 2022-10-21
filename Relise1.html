@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <!-- PAGE INFO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ Integrações B2B</title>
+  <link rel="icon" type="image/png" href="./assets/img/icoifc">
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="assets/fonts/style.css" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/IFC.png" alt="Logo infracommerce" /></a>
+        <!--<a class="logo" href="#">beauty<span>salon</span>.</a> -->
+      </div>
+      <!-- menu -->
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Introdução</a></li>
+          <li><a class="title" href="#box2">Desenvolvimento</a></li>
+          <li><a class="title" href="#box3">Etapas de Rollout</a></li>
+          <li><a class="title" href="#box4">Acompanhamento</a></li>
+          <li><a class="title" href="#box5">Tipos de Rollout</a></li>
+          <li><a class="title" href="#box6">Prazos</a></li>
+        </ul>
+      </div>
+      <!-- /menu -->
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-cross"></div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Introdução</h2>
+          <p>
+            <strong>Rollout B2B</strong> é o processo de testes entre o distribuidor e a plataforma Infra.Shop,
+            realizando validação de
+            requisições de preço, estoque, cliente, status, pedidos e pagamentos, garantindo a integridade de dados, o
+            fluxo de rollout é dividido em duas etapas a de homologação (HCP) e produção (PRD).</br></br>
+          </p>
+          <p>
+            Por padrão, antes do início das integrações, a equipe de PMOs responsáveis realizam uma reunião apresentando
+            o projeto (Kickoff), mostrando os prazos, como iniciar, e respondendo as dúvidas que possam aparecer no
+            momento.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="box2">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Desenvolvimento</h2>
+          <p>
+            Após a reunião de apresentação do projeto, e o envio do arquivo zip com os dados necessários, o distribuidor
+            deve efetuar o desenvolvimento dos três Endpoints, sendo eles: CUSTOMER, ORDER e PAYMENT, necessários para a
+            comunicação entre plataforma e ERP.</br></br>
+          </p>
+          <p>
+            Seguindo com o fluxo de integração, antes do analista enviar os Endpoints e credenciais de acesso da
+            infracommerce, precisará receber primeiro os endpoints do distribuidor.
+            Isso é porque para que possamos criar o Setup da loja, e obter assim as credenciais de acesso dos Endpoints
+            IFC, precisaremos também informar os endpoints do distribuidor mencionados no início.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="box3">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Etapas de Rollout</h2>
+          <p>
+            Após o desenvolvimento é realizado a etapa de validação de endpoints.</br></br>
+          </p>
+          <h4>1. Validação de endpoints </h4>
+          <p></br>
+            É efetuada uma validação nos endpoints de Cliente(Customer), Pedido(Order) e Pagamento(Payment) do Seller.
+            Com os retornos corretos, é solicitado à equipe de projetos a emissão do ticket de premissas para
+            homologação.</br></br>
+            <i>Após a validação dos endpoints solicitamos o ticket de premissas de HOM para a equipe de projetos. Com o
+              ticket de premissas emitido, iniciamos as configurações do ambiente:</i></br></br>
+          </p>
+          <h4>2. Configuração de ambiente (HOM)</h4>
+          <p><br>
+            O Ambiente de HOM é configurado pela equipe de testes e integrações.</br></br>
+          </p>
+          <h4>3. Pré Rollout</h4>
+          <p><br>
+            É um resumo dos testes completos de HOM a fim de validar todos os endpoints e tipos de integração que serão
+            realizadas no decorrer da homologação.</br></br>
+          </p>
+          <h5>3.1 Estoque (Stock)</h5>
+          <p><br>
+            Solicitado o envio de estoque de produtos SKU em quantidades para validação da integração e andamento dos
+            testes de preços e pedidos.</br></br>
+          </p>
+          <h5>3.2 Preço (Price) ou Preços (Pricing)</h5>
+          <p><br>
+            Solicitado o envio de preços XML(para testes padrão) ou JSON(para testes de políticas de preço).</br></br>
+          </p>
+          <h5>3.3 Cadastro de clientes (Customer)</h5>
+          <p><br>
+            Efetuado o cadastro e um novo cliente no ambiente HOM e enviado ao Seller para validação de sua integração
+            no ERP.</br></br>
+          </p>
+          <h5>3.4 Status de cliente (Customer)</h5>
+          <p><br>
+            Envio de status APV e RPV para validar a integração.</br></br>
+          </p>
+          <h5>3.5 Limite de crédito (Voucher)</h5>
+          <p><br>
+            Liberação de limite de crédito para emissão de pedidos com tipo de pagamento "boleto faturado".</br></br>
+          </p>
+          <h4>4. Etapa de testes</h4>
+          <p><br>
+            É dividido em etapas de pedidos, pagamentos, faturamentos e cancelamento e atualização de preços*( quando
+            usado políticas de preço).</br></br>
+          </p>
+          <h5>4.1 Pedido (Order)</h5>
+          <p><br>
+            Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em
+            produção.</br></br>
+          </p>
+          <h5>4.2 Pagamento (Payment)</h5>
+          <p><br>
+            Efetua-se o envio de pagamento AP e RP para simular pedidos com pagamento à vista. Por exemplo: Pedido
+            boleto à vista, Cartão de Crédito e Vale Troca.</br></br>
+          </p>
+          <h5>4.3 Status de pedidos (Trackings)</h5>
+          <p><br>
+            Cenários de envio de status de pedido, deste pedido em separação e embalagem ou limite de crédito liberado,
+            a até nota fiscal emitida, pedido faturado, em rota de entrega e pedido entregue. Também é realizado testes
+            com a tracking correspondente ao cancelamento de um pedido.</br></br>
+            <i>Ao término dos testes de homologação é solicitado os endpoints de produção que serão utilizados pelo
+              Seller, com os endpoints em mãos, é solicitado a abertura do ticket de premissas de PRD à equipe de
+              projetos.</i><br><br>
+          </p>
+          <h4>5. Configuração de ambiente (PRD).</h4>
+          <p><br>
+            Efetuada a configuração em ambiente de produção com os endpoints e credenciais de ambiente PROD do Selle
+            presentes no ticket de premissas de PRD.</br></br>
+          </p>
+          <h4>6. Testes (PRD).</h4>
+          <p><br>
+            Cenários reduzidos de testes abrangendo envio de Estoque, preços, Cadastro de cliente, envio de Status APV,
+            Limite de crédito, emissão de pedido que logo deve ser cancelado e envio massivo de clientes já cadastrados
+            na plataforma que estejam dentro do atendimento por faixa de cep configurados para o Seller(etapa necessária
+            para novos Seller’s na plataforma e não necessário para homologação de melhorias de clientes já em
+            produção).</br></br>
+          </p>
+          <h4>7. Operação assistida (GO Live).</h4>
+          <p><br>
+            Após o termino dos testes em produção (PRD) é aprovação por parte da indústria e PMO é iniciado a operação
+            assistida geralmente tendo um período de 15 dias corridos, realizando o acompanhamento do fluxo de
+            integrações e relatório diário sobre a quantidade de requisições. </br></br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="box4">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Acompanhamento</h2>
+          <p>
+            Os testes são feitos sempre em conjunto, Distribuidor - Infracommerce, e durante toda a etapa de Rollout o
+            distribuidor terá um analista disponível via Skype ou Chat (Ferramenta de Google) durante todo horário
+            comercial, de segunda a sexta feira.
+            </br></br>
+            E nesse período serão realizados os cenários apontados pelo analista, assim como também podem ser
+            solucionadas duvidas do processo. Terá também no grupo o PMO do projeto para apoiar em qualquer
+            eventualidade.
+            </br></br>
+            Caso ocorra que o Analista Infracommerce, responsável pelo projeto, não esteja disponível, será alocado
+            outro analista para auxiliar e dar continuidade aos testes. Durante toda a fase de Rollout, desde as
+            validações iniciais até a operação assistida, sempre terá um analista para acompanhar o processo.
+            </br></br>
+            A infracommerce sempre se compromete com a excelência no atendimento de nossos distribuidores.
+            </br></br>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="box5">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Tipos de Rollout</h2>
+          <p>
+            Neste artigo abordaremos os diferentes tipos de Rollout, o que é considerado em cada um deles, e também detalharemos os testes por tipo de pagamento, com um resumo das novas funcionalidades. Lembrando que para cada tipo de Rollout existe um quadro com mais ou menos cenários, dependendo da necessidade, em essa lista pode ser conferida no artigo Como Funciona o Monday.
+            </br></br>
+          </p>
+          <h4>1. ROLLOUT</h4>
+          <p><br>
+            Estes testes consideram todos os cenários de homologação, desde envio de estoque e preço (modelo XML), cadastro de clientes, envio e remoção de limite de crédito, envio de todas as formas de pedidos em todas as modalidades de pagamento, e envios de tracking. Em resumo, iremos a testar o fluxo de vida completo de vários tipos de pedido.
+            Para mais detalhes sobre a lista dos pontos que serão validados, pode consultar o artigo dedicado ao quadro de Monday e seu preenchimento.
+            <br><br>
+            <strong>OBS</strong>: <i>O modelo XML mencionado acima, é o modelo do arquivo no qual serão enviados os preços do ERP para a plataforma. Para mais detalhes do tipo de preço e as tabelas necessárias por favor consultar o manual de integração.</br></br></i>
+          </p>
+          <h4>2. PRICING</h4>
+          <p><br>
+            Aqui vamos abordar de forma mais generalizada do que trata o Pricing, mas se quiser entender mais a fundo o significado e o processo, por favor consultar o artigo Pricing disponível no menu inicial. Também, em caso de dúvidas técnicas, sempre poderá encontrar as respostas no nosso manual de integração.</p>
+            <p><br>Pricing se refere ao envio das Políticas de Preço, com a possibilidade de valores diferenciados por CNPJ de cliente. </p>
+            <p><br>Caso um distribuidor já se encontre em produção com o modelo de preços convencional, e queira implementar o modulo Pricing, será necessário refazer os testes de homologação apenas considerando os cenários de preço e pedidos. Tem também o artigo Uso do Monday, onde no final tem uma lista da quantidade de tarefas para esse tipo de testes.<br><br></p>
+          </p>
+          <h4>3. LTM</h4>
+          <p><br>
+            É um meio de pagamento apenas disponível para as Lojas Compra Agora, também chamado Vale Compra Agora, e que está mais detalhado no Manual de integrações.  Assim como os testes de  Pricing, existe a possibilidade de realizar testes apenas com LTM, caso o distribuidor precise implementar essa forma de pagamento. </p>
+            <p><br>Os testes se referem a integração de pagamentos de pedidos via LTM, onde serão realizados diversos pedidos junto com outras formas de pagamento. Exemplo: LTM + Cartão de Crédito.<br><br></p>
+            
+          </p>
+
+          <h4>4. PIX</h4>
+          <p><br>
+            Essa nova forma de pagamento a vista e suas particularidades técnicas referentes ao desenvolvimento podem ser consultadas no Manual de Integração. </p>
+            <p><br>
+              No caso dos testes, mantem o padrão detalhado anteriormente, pois existe a possibilidade de um distribuidor que já está em produção de refazer apenas a homologação para testar e, posteriormente, implementar também o PIX. </p>
+
+            <p><br>Os cenários testados incluem pedidos com PIX + Vale troca, que é a única forma de pagamento que pode ser implementada junto com o PIX, assim como outros cenários de aprovação de pagamento.<br><br></p>
+            
+          </p>
+
+          <h4>5. CASHBACK</h4>
+          <p><br>
+            O Cashback é uma forma de economizar dinheiro na próxima compra, já que o saldo é armazenado na plataforma e você pode utilizá-lo como um desconto no próximo pedido. Mas nem todos os produtos deverão necessariamente oferecer Cashback, apenas estará disponível nos produtos selecionados para este tipo de benefício.</p>
+            <p><br>
+              Os detalhes técnicos referentes ao desenvolvimento estão disponíveis no Manual de integração.  Mas seu funcionamento básico é permitir que uma porcentagem da compra seja devolvida para o cliente, permitindo assim que esse valor seja usado novamente. O Cashback pode ser implementado em conjunto com outras formas de pagamento. Por exemplo: Cashback + Boleto à vista, ou Cartão de crédito.<br><br></p>
+            
+          </p>
+          <h4>6. MÓDULO DE CRÉDITO</h4>
+          <p><br>
+            É uma nova funcionalidade onde o limite de crédito passa ser gerenciado pela Infracommerce. No momento do envio existem diferencias técnicas que devem ser tomadas em consideração do lado do distribuidor, e que são explicadas no Manual de Integração.</p>
+            <p><br>
+              Mas de forma resumida, o distribuidor não precisará, caso escolha trabalhar com esse modulo, enviar mais o limite de crédito, pois a Infracommerce passará a ser responsável pelo envio desse limite e aprovação dos pedidos.</p>
+            <br><br>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="box6">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Duração dos Testes</h2>
+          <p>
+            O tempo estimado para finalização de todos os cenários de testes em homologação e produção no Rollout são de
+            <strong>30 dias</strong>.
+            </br></br>
+            E adicionalmente teremos outros <strong>15 dias</strong> de acompanhamento na Operação Assistida.
+            </br></br>
+            <!--Inicio : Tabelas FAQ-->
+          <div class="tabelas">
+            <div class="layout-table">
+              <!--Tabela 1-->
+              <table>
+                <caption>Etapas do Pre-Rollout em Homologação</caption>
+
+                <thead>
+                  <tr>
+
+                    <th class="centro">Atividades</th>
+                    <th class="centro">Tempo medio de execução</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Configurar e validar a integração entre os ambientes através do ticket de premissas. </td>
+                    <td class="centro" rowspan="4"> 7 dias</td>
+                  </tr>
+                  <tr>
+                    <td>Orientação aos envolvidos do lado do distribuidor a utilização da fermenta de testes Monday.
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>Realizar os primeiros testes seguindo os cenários de Pre-Rollout detalhados no quadro.</td>
+
+                  </tr>
+                  <tr>
+                    <td>Aguardando o distribuidor validar e integrar os dados. Anexar evidencias no Monday . </td>
+
+                  </tr>
+                </tbody>
+              </table>
+              <!--Tabela 2--></br></br>
+              <table >
+                <caption>Testes completos em Homologação</caption>
+
+                <thead>
+                  <tr>
+
+                    <th class="centro">Atividades</th>
+                    <th class="centro">Tempo medio de execução</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Iniciar os testes completos em homologação seguindo os cenários detalhados no quadro.</td>
+                    <td class="centro" rowspan="4"> 15 dias</td>
+                  </tr>
+                  <tr>
+                    <td>Validar as respostas do ERP, a estrutura das requisições recebidas, a integração dos retornos e
+                      verificação das evidencias anexadas após cada cenário.</td>
+
+                  </tr>
+                  <tr>
+                    <td>Orientação e detalhamento dos processos realizados para maior entendimento do fluxo. </td>
+
+                  </tr>
+                  <tr>
+                    <td>Orientação ou validação de um novo teste caso seja necessário. Caso não, finalização da
+                      homologação. </td>
+
+                  </tr>
+                </tbody>
+              </table>
+              <!--Tabela 3--> </br></br>
+              <table >
+                <caption>Testes completos em Produção</caption>
+
+                <thead>
+                  <tr>
+
+                    <th class="centro">Atividades</th>
+                    <th class="centro">Tempo medio de execução</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Configurar e validar a integração entre os ambientes através do ticket de premissas. </td>
+                    <td class="centro" rowspan="4"> 7 dias</td>
+                  </tr>
+                  <tr>
+                    <td>Realizar o processo de testes de acordo com o especificado no quadro.
+                    </td>
+
+                  </tr>
+                  <tr>
+                    <td>Validar e evidenciar todos os envios realizados, e confirmar o recebimento do lado do
+                      distribuidor. Sempre aguardar aprovação dos dados antes de seguir para a seguinte etapa. </td>
+
+                  </tr>
+                  <tr>
+                    <td>Cancelar os envios de pedidos realizados, e inabilitar os clientes cadastrados nos testes no
+                      momento de finalizar. </td>
+
+                  </tr>
+                </tbody>
+              </table>
+              <!--Tabela 4--> </br></br>
+              <table >
+                <caption>Operação Assistida</caption>
+
+                <thead>
+                  <tr>
+
+                    <th class="centro">Atividades</th>
+                    <th class="centro">Tempo medio de execução</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Acompanhar 15 dias corridos as integrações após iniciado o Go Live. Enviar Reportes diários das requisições enviadas e recebidas e evidenciar no Monday. </td>
+                    <td class="centro" rowspan="4"> 15 dias</td>
+                  </tr>
+                </tbody>
+              </table><br><br>
+            </div>
+          </div>
+          <!--Termino : Tabelas FAQ-->
+          </p>
+          <h2 class="title">SLA - Prazos de atendimento de Chamados.</h2>
+          <p>
+            Tempo necessário para resolução de alguns chamados de acordo com a prioridade.</br></br>
+          </p>
+          <div class="tabelas">
+            <div class="layout-table">
+              <!--Tabela 6--> 
+              <table >
+                <caption>SLA - Prazos</caption>
+
+                <thead>
+                  <tr>
+
+                    <th class="centro">Prioriadade</th>
+                    <th class="centro">Tempo de resolução 60% dos chamados</th>
+                    <th class="centro">Tempo de resolução 100% dos chamados</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="centro">CRÍTICO</td>
+                    <td class="centro"> 2 horas</td>
+                    <td class="centro"> 12 horas</td>
+                  </tr>
+                  <tr>
+                    <td class="centro">ALTA</td>
+                    <td class="centro"> 8 horas</td>
+                    <td class="centro"> 24 horas</td>
+                  </tr>
+                  <tr>
+                    <td class="centro">MÉDIA</td>
+                    <td class="centro"> 2 dias úteis</td>
+                    <td class="centro"> 5 dias úteis</td>
+                  </tr>
+                  <tr>
+                    <td class="centro">BAIXA</td>
+                    <td class="centro"> Próxima realise</td>
+                    <td class="centro"> Próxima realise</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--Tabela 5--></br></br>
+              <table>
+<!--                <caption>Etapas do Pre-Rollout em Homologação</caption>-->
+
+                <thead>
+                  <tr>
+
+                    <th class="centro">Prioriadade</th>
+                    <th class="centro">Tipo</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="centro">CRÍTICO</td>
+                    <td class="centro">Eventos que impedem o fechamento de pedidos para 100% dos usuários em produção.</td>
+                  </tr>
+                  <tr>
+                    <td class="centro">ALTA</td>
+                    <td class="centro">Eventos que impedem o fechamento de pedidos para mais que 10% dos usuários.</td>
+                  </tr>
+                  <tr>
+                    <td class="centro">MÉDIA</td>
+                    <td class="centro">Eventos que impedem o fechamento de pedidos para menos que 100% dos usuários.</td>
+
+                  </tr>
+                  <tr>
+                    <td class="centro">BAIXA</td>
+                    <td class="centro">Eventos que não impedem o fechamento de pedidos .</td>
+
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+              </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+  </main>
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <div class="logoft">
+          <a href="https://www.infracommerce.com.br/" target="_blank"><img src="assets/img/GifInfracommerce.gif" alt="GifInfracommerce" /></a>
+          <!--<a class="logo" href="#">beauty<span>salon</span>.</a> -->
+        </div>
+        <!--<a class="logo logo-alt" href="#home">pantheon<span>.net</span>.br</a> -->
+        <p>©2022 infracommerce.com.br</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+
+      <div class="social grid">
+        <a href="https://www.instagram.com/infracommerce/" target="_blank">
+          <i class="icon-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/infracommerce" target="_blank">
+          <i class="icon-facebook2"></i></a>
+        <a href="https://www.youtube.com/channel/UCMTRfzdvbTB0HTQPvwpwhLg" target="_blank"><i
+            class="icon-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/infracommerce/" target="_blank"><i class="icon-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main.js -->
+  <script src="main.js"></script>
+  <!-- Por: Jonatha A. Oliveira-->
+</body>
+
+</html>

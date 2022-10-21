@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <!-- PAGE INFO -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ Integrações B2B</title>
+  <link rel="icon" type="image/png" href="./assets/img/icoifc">
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="assets/fonts/style.css" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+    <nav class="container">
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/IFC.png" alt="Logo infracommerce" /></a>
+        <!--<a class="logo" href="#">beauty<span>salon</span>.</a> -->
+      </div>
+      <!-- menu -->
+      <div class="menu">
+        <ul class="grid">
+          <li><a class="title" href="#home">Fluxo</a></li>
+          <li><a class="title" href="#box2">Estoque</a></li>
+          <li><a class="title" href="#box3">Preço</a></li>
+          <li><a class="title" href="#box4">Politica</a></li>
+          <li><a class="title" href="#box5">Cliente</a></li>
+          <li><a class="title" href="#box6">Limite</a></li>
+          <li><a class="title" href="#box7">Pedido</a></li>
+          <li><a class="title" href="#box8">Devolução</a></li>
+          <li><a class="title" href="#box9">Pagamento</a></li>
+          <li><a class="title" href="#box10">Status</a></li>
+        </ul>
+      </div>
+      <!-- /menu -->
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-cross"></div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="section" id="home">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Fluxo Macro</h2>
+          <p>
+            Entenda como funciona o fluxo b2b de requisições entre o distribuidor e e-commerce. Veja abaixo um
+            brainstorm explicativo desde a saída de estoque do ambiente do distribuidor até a loja(e-commerce) e demais
+            requisições como preço, cadastro de cliente, status de cliente, limite de crédito, pedidos, pagamentos e
+            status de pedidos.
+            <br> <br>
+            Todos os detalhes tecnicos você pode encontrar em nosso manual de integração : <a
+              href="https://ifcrollout.github.io/ifcrollout/"
+              target="_blank"> Manual de integração B2B.</a>
+          </p>
+
+          <br>
+          <hr>
+          <p>
+          <div class="infra">
+            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+            padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+            border-radius: 8px; will-change: transform;">
+              <iframe loading="lazy"
+                style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFD2yJodv4&#x2F;view?embed"
+                allowfullscreen="allowfullscreen" allow="fullscreen">
+              </iframe>
+            </div>
+            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFD2yJodv4&#x2F;view?utm_content=DAFD2yJodv4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+              target="_blank" rel="noopener"></a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="box2">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Estoque (Stock)</h2>
+          <p>
+            Para que os produtos sejam exibidos na loja (e-commerce) uma das principais requisições é o envio de
+            estoque, é esperado o envio de SKU unitário ou caixa.</br></br>
+            Veja exemplo de uma requisição de estoque (SKU "Unitario"):
+            <br><br>
+          </p>
+          <figure>
+            <img src="./assets/img/Request-Stock1.png" />
+          </figure>
+          <p>Veja exemplo de uma requisição de estoque (SKU "Caixa"):</p>
+          <figure>
+            <img src="./assets/img/Request-Stock2.png" />
+          </figure>
+          <p>
+            Saiba mais em : <a
+              href="https://ifcrollout.github.io/ifcrollout/index.html#02%20-%20Integra%C3%A7%C3%A3o%20de%20estoque"
+              target="_blank">Manual de integração B2B.</a>
+          </p>
+        </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="box3">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Preço (Price)</h2>
+          <p>
+            Para que os produtos sejam exibidos na loja (e-commerce) uma outra importante requisição é o envio de preço,
+            é esperado o envio de SKU unitário ou caixa com seu respectivo preço.</br></br>
+            Veja exemplo de uma requisição de preço (Apenas uma forma de pagamento):
+            <br><br>
+          </p>
+          <figure>
+            <img src="./assets/img/Price1.png" />
+          </figure>
+          <p>Veja outro exemplo (com multiplas formas de pagamento em uma unica requisição):</p>
+          <figure>
+            <img src="./assets/img/Price2.png" />
+          </figure>
+          <p>
+            Saiba mais em : <a
+              href="https://ifcrollout.github.io/ifcrollout/index.html#03%20-%20Pre%C3%A7os%20XML"
+              target="_blank">Manual de integração B2B.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="box4">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Politica de preços (Pricing)</h2>
+          <p>
+            Aqui vamos abordar mais a fundo o significado, e as diferencias entre o envio de preço convencional e o
+            modulo de Pricing.</br></br>
+          </p>
+          <p>
+            Pricing se refere ao envio das Políticas de Preço, com a possibilidade de valores diferenciados por CNPJ de
+            cliente. O arquivo é no formato JSON, e possui dois tipos de política, que funcionam da seguinte forma:
+            </br></br>
+          </p>
+          <p>
+            O distribuidor efetua envio de preços para uma primeira política chamada DEFAULT, e esses valores estarão
+            disponíveis na loja para todos os clientes que não fazem parte de outras políticas.</br></br>
+          </p>
+          <p>
+            Agora, entre o envio de preços convencional e o Pricing existem duas diferencias, a primeira é o formato de
+            envio, sendo que no envio de preços padrão o formato é XML, e no Pricing o arquivo é JSON. </br></br>
+          </p>
+          <p>
+            E por último, no envio usando o XML só é possível ter valores diferentes em alguns produtos de acordo com o
+            prazo, (CRL 7/14/21/28), mas com o Pricing é possível ter um valor diferenciado tanto por prazo como por
+            cliente. </br></br>
+          </p>
+          <p>
+            Caso um distribuidor já se encontre em produção com o modelo de preços XML, e queira implementar o modulo
+            Pricing, será necessário refazer os testes de homologação apenas considerando os cenários de
+            preço.</br></br>
+          </p>
+          <p>Veja outro exemplo de requisição com protocolo GET (Necessario para geração do token que será usado no
+            protocolo POST):</p>
+          <figure>
+            <img src="./assets/img/PolicesGET.jpeg" />
+          </figure>
+          <p>Após receber o token deve ser gerado uma requisição de politica de preço com protocolo POST (Politica de
+            preços Default):</p>
+          <figure>
+            <img src="./assets/img/PolicesDefault.jpeg" />
+          </figure>
+          <p>Uma forma de ter preços diferenciados por cliente é utilizar (Politica de preços Cluster):</p>
+          <figure>
+            <img src="./assets/img/PolicesCluster.jpeg" />
+          </figure>
+          <p>
+            Saiba mais em : <a
+              href="https://ifcrollout.github.io/ifcrollout/index.html#04%20-%20Politica%20de%20pre%C3%A7os%20(JSON)"
+              target="_blank">Manual de integração B2B.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="box5">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Cliente (Customer)</h2>
+          <p>
+            Naturalmente o processo de clientes é iniciado na loja (e-commerce), estando em rollout um consultor realiza
+            o cadastro de um cliente e efetua o envio para o ambiente do Seller. Em produção o próprio cliente se
+            cadastra e dependendo do range de cep e enviado para o ambiente do Seller.<br><br>
+            É identificado como enviado com sucesso, quando obtemos um retorno igual a PEN (Cliente Pré-Aprovado). Isso
+            identifica que o cliente chegou na base do Seller e o mesmo vai decidir se irá alterar o status deste
+            cliente para APV (Cliente Aprovado) ou RPV (Cliente Reprovado).<br><br>
+            Clientes com PEN ou APV podem comprar em boleto a vista ou cartão de crédito.<br><br>
+            Clientes com RPV não podem comprar na plataforma.<br><br>
+            Clientes com APV + Limite de crédito podem comprar em condições a prazo (boleto faturado).<br><br>
+            </br></br>
+          </p>
+          <p>Veja um exemplo de requisição de cliente (Envio para o distribuidor):</p>
+          <figure>
+            <img src="./assets/img/Customer.png" />
+          </figure>
+          <p>Veja um exemplo de requisição de status de cliente (Envio para o middleware):</p>
+          <figure>
+            <img src="./assets/img/StatusAPV.png" />
+          </figure>
+          <figure>
+            <img src="./assets/img/StatusRPV.png" />
+          </figure>
+          <p>
+            Saiba mais em : <a
+              href="https://ifcrollout.github.io/ifcrollout/index.html#05%20-%20Integra%C3%A7%C3%A3o%20de%20cliente"
+              target="_blank">Manual de integração B2B.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="box6">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Limite de crédito (Voucher)</h2>
+          <p>
+            Limite de crédito é necessário para que um determinado cliente possa comprar em condições a prazo, como
+            boleto faturado 7,14,21,28 etc... É esperado que o Seller envie um valor de limite para seu cliente, existe
+            outras maneiras onde não é o Seller que envia o limite de crédito, um exemplo é a TM (Trade Master) onde a
+            responsabilidade do limite fica por conta deles, estando disponíveis em lojas CA e FOODS.</br></br>
+          </p>
+          <p>Veja um exemplo de requisição de limite de crédito (Envio para o middleware):</p>
+          <figure>
+            <img src="./assets/img/Voucher.png" />
+          </figure>
+          <p>
+            Saiba mais em : <a
+              href="https://ifcrollout.github.io/ifcrollout/index.html#07%20-%20Limite%20de%20Cr%C3%A9dito"
+              target="_blank">Manual de integração B2B.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="box7">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Pedidos (Order)</h2>
+          <p>
+            Os pedidos são realizados na loja (e-commerce) e na sequencia enviados para o ambiente do Seller.</br></br>
+            Os pedidos podem mudar seus preços dependendo da condição de pagamento, variando entre condições a vista, a
+            prazo, com ou sem promoção, vale troca, entre outros.
+            <br><br>
+          </p>
+          <p>Veja um exemplo de requisição de pedido :</p>
+          <figure>
+            <img src="./assets/img/Order.png" />
+          </figure>
+          <p>
+            Saiba mais em : <a
+              href="https://ifcrollout.github.io/ifcrollout/index.html#08%20-%20Integra%C3%A7%C3%A3o%20de%20Pedidos."
+              target="_blank">Manual de integração B2B.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="box8">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Processo de Devolução</h2>
+          <p>
+            Os pedidos que foram faturados mas não foram entregues ou que o cliente devolveu no ato da entrega, devem receber o envio da tracking de CAN, <strong>mesmo que tenha sido faturados anteriormente</strong>.<br>
+            
+            </br>
+          </p>
+          <p>Veja mais sobre o detalhamento de devolução usando a tracking CAN:</p>
+          
+          <figure>
+            <img src="./assets/img/Dev02.png" />
+          </figure>
+          <figure>
+            <img src="./assets/img/Dev03.png" />
+          </figure>
+          <figure>
+            <img src="./assets/img/Dev04.png" />
+          </figure>
+          <p>
+            Saiba mais em : <a
+              href="assets/arq/trackingdecancelamento.pptx"
+              target="_blank">Faça o download desse material.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-2"></div>
+
+    <section class="section" id="box9">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Pagamento (Payment)</h2>
+          <p>
+            Os pagamentos a vista, a infracommerce envia aprovação (AP) ou reprovação (RP) de pagamento, as condições
+            contempladas são: boleto a vista, cartão de crédito e vale troca.<br>
+            Condições de pagamento a prazo são de responsabilidade do distribuidor.
+            </br></br>
+          </p>
+          <p>Veja um exemplo de requisição de pagamento (Realizado de forma automatica):</p>
+          <figure>
+            <img src="./assets/img/Payment1.png" />
+          </figure>
+          <figure>
+            <img src="./assets/img/Payment2.png" />
+          </figure>
+          <p>
+            Saiba mais em : <a
+              href="https://ifcrollout.github.io/ifcrollout/index.html#09%20-%20Integra%C3%A7%C3%A3o%20de%20Pagamento"
+              target="_blank">Manual de integração B2B.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+
+    <section class="section" id="box10">
+      <div class="container grid">
+        <div class="faq">
+          <h2 class="title">Status de pedido (Tracking)</h2>
+          <p>
+            Tracking é o status que o pedido se encontra, então quando o distribuidor recebe a confirmação de pagamento
+            de um pedido, ele envia as trackings para identificar qual é o status dele.
+            </br></br>
+            As Trackings são as seguintes:
+            </br></br>
+          </p>
+          <div class="tabelas">
+            <div class="layout-table">
+              <!--Tabela 6-->
+              <table>
+                <caption>Tipos de trackings</caption>
+
+                <thead>
+                  <tr>
+
+                    <th class="centro">Tracking</th>
+                    <th class="centro">Descrição</th>
+                    <th class="centro">Observação</th>
+                    <th class="centro">Obrigatoriedade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Não terá mas esta opção desde 18/08/2022
+                  <tr>
+                    <td class="centro">MAP</td>
+                    <td class="centro">Limite de crédito aprovado</td>
+                    <td class="centro">Análise do limite de crédito aprovada. </td>
+                    <td class="centro">Opcional</td>
+                  </tr>
+                  -->
+                  <tr>
+                    <td class="centro">WMS</td>
+                    <td class="centro">Separação e embalagem </td>
+                    <td class="centro">Os produtos estão em separação e embalagem.</td>
+                    <td class="centro">Opcional</td>
+                  </tr>
+                  <tr>
+                    <td class="centro">NFS </td>
+                    <td class="centro">Nota Fiscal emitida </td>
+                    <td class="centro">Os produtos foram faturados, deverá ser enviado uma NFS para cada pedido
+                      gerado.<br>
+                      OBS: Para mais detalhes por favor consultar o Manual de Integração. </td>
+                    <td class="centro">Obrigatório</td>
+                  </tr>
+                  <tr>
+                    <td class="centro">FAT </td>
+                    <td class="centro">Pedido Faturado </td>
+                    <td class="centro">O pedido foi faturado.</td>
+                    <td class="centro">Obrigatório </td>
+                  </tr>
+                  <tr>
+                    <td class="centro">ETR </td>
+                    <td class="centro">Entrega em andamento </td>
+                    <td class="centro">O pedido foi entregue ao transportador. </td>
+                    <td class="centro">Opcional</td>
+                  </tr>
+                  <tr>
+                    <td class="centro">ENT</td>
+                    <td class="centro">Entrega concluída </td>
+                    <td class="centro">Entrega concluída. </td>
+                    <td class="centro">Obrigatório </td>
+                  </tr>
+                  <!-- Não terá mas esta opção desde 18/08/2022
+                  <tr>
+                    <td class="centro">MNA </td>
+                    <td class="centro">Limite de crédito reprovado </td>
+                    <td class="centro">Análise do limite de crédito aprovada. </td>
+                    <td class="centro">Opcional </td>
+                  </tr>
+                -->
+                  <tr>
+                    <td class="centro">CAN </td>
+                    <td class="centro">Entrega Cancelada </td>
+                    <td class="centro">Pedido cancelado. </td>
+                    <td class="centro">Obrigatório para os pedidos que foram cancelados.</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+          <!--
+          <p><br>
+            Lembrando que no Manual de Integração também aparece o detalhamento das trackings acima. Mas entre todas
+            elas, as que mais temos que nos atentar são MAP e MNA, abaixo vou explicar como deve ser seguido o fluxo
+            para cada uma delas.
+            </br></br>
+            <strong> MAP (Limite de Crédito Aprovado)</strong> - Nesse cenário será realizado um pedido com boleto
+            faturado, ou seja, ele precisará de um limite de crédito disponível, do contrário ele não conseguiria fazer
+            o pedido com essa forma de pagamento. Após receber o pedido, o distribuidor irá enviar a tracking MAP,
+            liberando o pagamento do pedido via boleto faturado com o limite de crédito disponibilizado.
+            </br></br>
+            <strong> MNA (Limite de Crédito Reprovado)</strong> - Nesse cenário segue o mesmo fluxo inicial que o
+            anterior, será realizado um pedido com boleto faturado, ou seja, ele também precisará de um limite de
+            crédito disponível para realizar o pedido com essa forma de pagamento. A diferença é que neste caso, o
+            distribuidor enviará a tracking MNA, informando que o cliente não possui limite de crédito para realizar o
+            pedido. Após o envio de MNA, sempre será necessário o envio de CAN para cancelar o pedido, encerrando assim,
+            seu fluxo de cancelamento. 
+          </p>--><br>
+          <h2 class="title">Fluxo de envio de Trackings.</h2>
+          <p>
+            Segue abaixo a ordem certa para envio das trackings dependendo do tipo de pedido. Lembrando que a Tracking
+            CAN, é também uma forma de encerrar o ciclo de vida de um pedido que não foi entregue.<br><br>
+            Aqui, o fluxo para pedidos com pagamento gerenciado por Infracommece.<br><br>
+          </p>
+          <figure>
+            <img src="./assets/img/Tracking1.png" />
+          </figure>
+          <!--
+          <p>
+            Aqui, o fluxo para pedidos com pagamento gerenciado pelo Distribuidor.
+            <br><br>
+          </p>
+
+          <figure>
+            <img src="./assets/img/Tracking2.png" />
+          </figure>
+          -->
+          <p>
+            Se ainda tenha alguma dúvida referente as Trackings:
+            <br><br>
+          </p>
+          <p>
+            Saiba mais em : <a
+              href="https://ifcrollout.github.io/ifcrollout/index.html#10%20-%20Integra%C3%A7%C3%A3o%20de%20tracking"
+              target="_blank">Manual de integração B2B.</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-1"></div>
+  </main>
+
+  <footer class="section">
+    <div class="container grid">
+      <div class="brand">
+        <div class="logoft">
+          <a href="https://www.infracommerce.com.br/" target="_blank"><img src="assets/img/GifInfracommerce.gif"
+              alt="GifInfracommerce" /></a>
+          <!--<a class="logo" href="#">beauty<span>salon</span>.</a> -->
+        </div>
+        <!--<a class="logo logo-alt" href="#home">pantheon<span>.net</span>.br</a> -->
+        <p>©2022 infracommerce.com.br</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+
+      <div class="social grid">
+        <a href="https://www.instagram.com/infracommerce/" target="_blank">
+          <i class="icon-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/infracommerce" target="_blank">
+          <i class="icon-facebook2"></i></a>
+        <a href="https://www.youtube.com/channel/UCMTRfzdvbTB0HTQPvwpwhLg" target="_blank"><i
+            class="icon-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/infracommerce/" target="_blank"><i class="icon-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main.js -->
+  <script src="main.js"></script>
+  <!-- Por: Jonatha A. Oliveira-->
+</body>
+
+</html>
