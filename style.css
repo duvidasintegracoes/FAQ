@@ -383,8 +383,8 @@ nav.show div.icon-cross {
 }
 
 .faq figure {
-  margin: 1rem;
-  padding: 4rem;
+  border-left: 5px solid #3e3354;
+  padding-left: 10%;
 }
 
 .faq figure img {
@@ -402,6 +402,12 @@ nav.show div.icon-cross {
   padding-left: 20px;
   text-indent: 3rem;
   text-align: justify;
+}
+
+.faq pre {
+  border-left: 5px solid #3e3354;
+  font-size: 1rem;
+  padding-left: 15%;
 }
 
 .faq h5 {

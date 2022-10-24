@@ -58,12 +58,16 @@
             <strong>Implantação B2B</strong> é o processo de testes entre o distribuidor e a plataforma Infra.Shop,
             realizando validação de
             requisições de preço, estoque, cliente, status, pedidos e pagamentos, garantindo a integridade de dados, o
-            fluxo de rollout é dividido em duas etapas a de homologação (HCP) e produção (PRD).</br></br>
+            fluxo de testes é dividido em duas etapas a de homologação (HCP) e produção (PRD).</br></br>
           </p>
           <p>
             Por padrão, antes do início das integrações, a equipe de PMOs responsáveis realizam uma reunião apresentando
             o projeto (Kickoff), mostrando os prazos, como iniciar, e respondendo as dúvidas que possam aparecer no
-            momento.
+            momento. O PMO tambem é responsavel por criar o ticket de premissas (necessario para configuração do setup do distribuidor),
+            durante todo o processo por padrão é aberto o primeiro ticket de premissas para configuração do ambiente de homologação, após está configuração é iniciado os testes. <br> <br>
+          </p>
+          <p>
+            Após o termino dos testes em homologação é solicitado um 2º ticket (virada) para o ambiente de produção.
           </p>
         </div>
 
@@ -79,6 +83,7 @@
           <h2 class="title">Etapas de Implantação</h2>
           <h4>1 - Acompanhamento e desenvolvimento</h4>
           <p><br></p>
+          <p> <strong>Acompanhamento</strong> <br> <br></p>
           <p>
             Os testes são feitos sempre em conjunto, Distribuidor - Infracommerce, e durante toda a etapa de Rollout o
             distribuidor terá um analista disponível via Skype ou Chat (Ferramenta de Google) durante todo horário comercial, de
@@ -100,6 +105,7 @@
             A infracommerce sempre se compromete com a excelência no atendimento de nossos distribuidores.
             <br><br>
           </p>
+          <p> <strong>Desenvolvimento</strong> <br> <br></p>
           <p>
             Após a reunião de apresentação do projeto, e o envio do arquivo zip com os dados necessários, o distribuidor deve
             efetuar o desenvolvimento dos três Endpoints, sendo eles: CUSTOMER, ORDER e PAYMENT, necessários para a comunicação
@@ -124,29 +130,60 @@
             <i>Após a validação dos endpoints solicitamos o ticket de premissas de HOM para a equipe de projetos. Com o
               ticket de premissas emitido, iniciamos as configurações do ambiente.</i></br></br>
           </p>
-          
-          <h4>2. Configuração de ambiente (HOM)</h4>
-          <p><br>
-            O Ambiente de HOM é configurado pela equipe de testes e integrações.</br></br>
+          <p> Saiba mais sobre o desenvolvimento no <a href="https://manualdeintegracoesb2b.github.io/B2B/">manual de  integração B2B</a>. <br><br></p>
+          <h4>2 - Etapas de testes em homologação</h4>
+          <p><br></p>
+          <p>
+            O Ambiente de homologação (HCP) é configurado pela equipe de testes e integrações,
+            após a disponibilização do ticket de premissas.
+            Estando o setup (Loja) já configurado é passado os endpoints para o distribuidor configurar em seu ambiente, após a confirmação do distribuidor,
+            é iniciado as etapas de testes em ambinete de homologação, são elas :
+          </br></br>
           </p>
-          <h4>3. Pré Rollout</h4>
+          <p> <strong>Pré Rollout</strong></p>
           <p><br>
-            É um resumo dos testes completos de HOM a fim de validar todos os endpoints e tipos de integração que serão
-            realizadas no decorrer da homologação.</br></br>
+            É um resumo dos testes completos de HCP a fim de validar todos os endpoints e tipos de integração que serão
+            realizadas no decorrer da homologação.</br><br>
+            <details>
+               <summary>Fluxo do pré rollout</summary>
+              <p>
+                <pre>
+                
+  [Distribuidor]   --> (Stock) - Envio de estoque dos SKU´s;
+  
+  [Distribuidor]   --> (Polices price) - Envio de Politica de preço;
+  
+  [Infra.commerce] --> (Customer) - Envio de cliente;
+  
+  [Distribuidor]   --> (Status) - Envio de atualização de status cliente;
+  
+  [Infra.commerce] --> (Order) - Envio de pedido;
+  
+  [Infra.commerce] --> (Payment) - Envio de pagamento;
+  
+  [Distribuidor]   --> (Trackings) - Envio de status de pedido;
+  
+  [Distribuidor]   --> (Voucher) - Envio de limite de crédito;
+  
+  [Distribuidor]   --> (Update) - Atualização de politica de preço;
+                
+              </pre>
+              </p>
+            </details>
+            <p><br></p>
           </p>
-          <h5>3.1 Estoque (Stock)</h5>
+          <p><strong>(Stock) Estoque</strong></p>
           <p><br>
-            Solicitado o envio de estoque de produtos SKU em quantidades para validação da integração e andamento dos
+            Solicitado o envio de estoque de todos os produtos (SKU) em quantidades que será utilizado para validação da integração e andamento dos
             testes de preços e pedidos.</br></br>
           </p>
-          <h5>3.2 Preço (Price) ou Preços (Pricing)</h5>
+          <p><strong>(Price) Preço</strong></p>
           <p><br>
-            Solicitado o envio de preços XML(para testes padrão) ou JSON(para testes de políticas de preço).</br></br>
+            Solicitado o envio de preços em requisição XML, forma mais antiga de trabalhar com preço, sem variação de preço por cliente.</br></br>
           </p>
-          <h5>3.3 Cadastro de clientes (Customer)</h5>
+          <p><strong>(Pricing) Politica de preços</strong></p>
           <p><br>
-            Efetuado o cadastro e um novo cliente no ambiente HOM e enviado ao Seller para validação de sua integração
-            no ERP.</br></br>
+            Solicitado o envio de politica de preços em requisição JSON (Padrão), tendo possibilidade de variação de preço por cliente.</br></br>
           </p>
           <h5>3.4 Status de cliente (Customer)</h5>
           <p><br>
@@ -208,7 +245,7 @@
     <section class="section" id="box3">
       <div class="container grid">
         <div class="faq">
-          <h2 class="title">""</h2>
+          <h2 class="title">Etapas de testes em homologação</h2>
           <p>
             ""
           </p>
