@@ -143,55 +143,156 @@
           <p> <strong>Pré Rollout</strong></p>
           <p><br>
             É um resumo dos testes completos de HCP a fim de validar todos os endpoints e tipos de integração que serão
-            realizadas no decorrer da homologação.</br><br>
-            <details>
-               <summary>Fluxo do pré rollout</summary>
-              <p>
-                <pre>
-                
-  [Distribuidor]   --> (Stock) - Envio de estoque dos SKU´s;
-  
-  [Distribuidor]   --> (Polices price) - Envio de Politica de preço;
-  
-  [Infra.commerce] --> (Customer) - Envio de cliente;
-  
-  [Distribuidor]   --> (Status) - Envio de atualização de status cliente;
-  
-  [Infra.commerce] --> (Order) - Envio de pedido;
-  
-  [Infra.commerce] --> (Payment) - Envio de pagamento;
-  
-  [Distribuidor]   --> (Trackings) - Envio de status de pedido;
-  
-  [Distribuidor]   --> (Voucher) - Envio de limite de crédito;
-  
-  [Distribuidor]   --> (Update) - Atualização de politica de preço;
-                
-              </pre>
+            realizadas no decorrer da homologação.</br>
+           
+              <p class="gg-wp">
+                <br>
+                  [Distribuidor]
+                  <br>
+                  Envio de todo o estoque que irá utilizar em ambiente de homologação, recomendado 3 SKU´s unitarios e 3 SKU´s caixa.
+                 <br><br>
+                  [Distribuidor]
+                  <br>
+                  Envio de politica de preço default dos mesmos sku´s que foram utilizados no envio de estoque.
+                  <br><br>
+                  [Infracommerce]
+                  <br>
+                  Envio de um cliente para o ambiente do distribuidor.
+                 <br><br>
+                 [Distribuidor]
+                  <br>
+                  Envio do primeiro limite de crédito.
+                 <br><br>
+                 [Infracommerce]
+                  <br>
+                  Envio do primeiro pedido em condição boleto a vista, enviando aprovação de pagamento (AP), faturado por completo.
+                 <br><br>
+                 [Distribuidor]
+                  <br>
+                  Mudar status do cliente pendente (PEN) para reprovado (RPV).
+                 <br><br>
+                 [Distribuidor]
+                  <br>
+                  Enviar atualização de politica de preços default.
+                 
               </p>
-            </details>
+            
+            
+            
             <p><br></p>
           </p>
-          <p><strong>(Stock) Estoque</strong></p>
+          <p><strong>Cliente e limite de crédito</strong></p>
           <p><br>
-            Solicitado o envio de estoque de todos os produtos (SKU) em quantidades que será utilizado para validação da integração e andamento dos
-            testes de preços e pedidos.</br></br>
+            Solicitado o envio de atualização de status de cliente e limite de crédito, alem da loja enviar atualização do cadastro de cliente.
+            <br><br>
+
           </p>
-          <p><strong>(Price) Preço</strong></p>
+          
+            <p class="gg-wp">
+              <br>
+                [Distribuidor]
+                <br>
+                Envia atualização de status passando o cliente de reprovado (RPV) para aprovado (APV), com limite de crédito no valor de R$ 5.000,00.
+               <br><br>
+                [Infracommerce]
+                <br>
+                Envia atualização de cadastro de cliente, alterando o numero de telefone.
+            </p>
+       
+          <p><br></p>
+          <p><strong>Pedidos com politica de preço default.</strong></p>
           <p><br>
-            Solicitado o envio de preços em requisição XML, forma mais antiga de trabalhar com preço, sem variação de preço por cliente.</br></br>
+            Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em produção. Utilizando preços da politica default.</br></br>
           </p>
-          <p><strong>(Pricing) Politica de preços</strong></p>
+          
+            <p class="gg-wp">
+              <br>
+                [Infracommerce]
+                <br>
+                Envia pedido boleto a vista, com aprovação ou reprovação de pagamento.
+               <br><br>
+                [Infracommerce]
+                <br>
+                Envia pedido com cartão de crédito, com aprovação ou reprovação de pagamento.
+                <br><br>
+                [Infracommerce]
+                <br>
+                Envia pedido com pagamento PIX, com aprovação ou reprovação de pagamento.
+               <br><br>
+               [Infracommerce]
+                <br>
+                Pedido já integrado.
+               <br><br>
+               [Infracommerce]
+                <br>
+                Envio de pedido com SKU CX pago via vale troca e faturado por completo.
+               <br><br>
+            </p>
+          
+          
+          <p><strong>Preço</strong></p>
           <p><br>
-            Solicitado o envio de politica de preços em requisição JSON (Padrão), tendo possibilidade de variação de preço por cliente.</br></br>
+            Solicitado o envio de politica de preços cluster, com informação de CNPJ do cliente que terá preço diferente da politica default.</br></br>
           </p>
-          <h5>3.4 Status de cliente (Customer)</h5>
+          <p class="gg-wp">
+            <br>
+              [Distribuidor]
+              <br>
+              Envia preços da politica cluster diferentes dos preços integrados para a política DEFAULT. Deve enviar nesta política cluster o cliente cadastrado no pré-rollout.
+             <br><br>
+          <p><strong>Pedidos com politica cluster</strong></p>
           <p><br>
-            Envio de status APV e RPV para validar a integração.</br></br>
+            Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em produção. Utilizando preços da politica cluster.</br></br>
           </p>
-          <h5>3.5 Limite de crédito (Voucher)</h5>
+          <p class="gg-wp">
+            <br>
+              [Infracommerce]
+              <br>
+              Envia Pedido boleto a vista, reprovado e cancelado.
+             <br><br>
+              [Infracommerce]
+              <br>
+              Pedido cartão de crédito, reprovado e cancelado.
+              <br><br>
+              [Infracommerce]
+              <br>
+              Pedido boleto 21 dias, reprovado e cancelado.
+             <br><br>
+             [Infracommerce]
+              <br>
+              Pedido boleto 28 dias, faturado parcialmente.
+             <br><br>
+             [Infracommerce]
+              <br>
+              Pedido boleto faturado, kit promocional, faturado por completo.
+             <br><br>
+             [Infracommerce]
+              <br>
+              Pedido boleto a vista + vale troca, aprovado e faturado por completo.
+             <br><br>
+             [Infracommerce]
+              <br>
+              Dois pedidos com pagamento PIX.
+             <br><br>
+             [Infracommerce]
+              <br>
+              Pedido pago com PIX + Vale troca.
+             <br><br>
+          </p>
+          <p><strong>Atualizar politica de preço</strong></p>
           <p><br>
-            Liberação de limite de crédito para emissão de pedidos com tipo de pagamento "boleto faturado".</br></br>
+            Solicitado o envio de atualização da politica de preços cluster alem de mover um cliente da politica cluster para politica default.</br></br>
+          </p>
+          <p class="gg-wp">
+            <br>
+              [Distribuidor]
+              <br>
+              Envia atualização de preço da politica cluster.
+             <br><br>
+             [Distribuidor]
+              <br>
+              Envio da política default com o CNPJ do cliente presente na política CLUSTER..
+             <br><br>
           </p>
           <h4>4. Etapa de testes</h4>
           <p><br>

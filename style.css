@@ -410,6 +410,17 @@ nav.show div.icon-cross {
   padding-left: 15%;
 }
 
+.gg-wp {
+  
+  color: #FFA925;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.return {
+  color: #7d2ae8;
+}
+
 .faq h5 {
   text-indent: 1rem;
   font-size: 1.8rem;
