@@ -1079,32 +1079,41 @@ footer .social a:hover {
   height: 20%;
   margin-left: 20%;}
 
+  .gg-wp { 
+    color: #FFA925;
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+  }
+  .faq pre  {
+    font-size: 0.5rem;
+    border-left:  2px solid #3e3354;
+  }
+  
+  .tabelas tr, th, td {
+    font-size: 0.6rem;
+    padding: 0.5%;
+  }
+  
+  th.centro {
+    font-size: 0.8rem;
+    padding: -1%;
+  }
+  
+  .capTitle caption {
+    font-size: 1rem;
+    size: 1px;
+  }
+
+  .logoft img {
+    width: 15rem;
+    height: auto;
+  }
+
 }
 
-.gg-wp { 
-  color: #FFA925;
-  font-size: 0.8rem;
-  padding-bottom: 2rem;
-}
-.faq pre  {
-  font-size: 0.5rem;
-  border-left:  2px solid #3e3354;
-}
 
-.tabelas tr, th, td {
-  font-size: 0.6rem;
-  padding: 0.5%;
-}
 
-th.centro {
-  font-size: 0.8rem;
-  padding: -1%;
-}
 
-.capTitle caption {
-  font-size: 1rem;
-  size: 1px;
-}
 /* medium devices: 767 > */
 
 
