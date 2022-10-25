@@ -1092,17 +1092,17 @@ footer .social a:hover {
 }
 
 .tabelas tr, th, td {
-  font-size: 0.4rem;
+  font-size: 0.6rem;
   padding: 0.5%;
 }
 
 th.centro {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   padding: -1%;
 }
 
 .capTitle caption {
-  font-size: 0.5rem;
+  font-size: 1rem;
   size: 1px;
 }
 /* medium devices: 767 > */
