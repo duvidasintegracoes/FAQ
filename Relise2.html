@@ -99,16 +99,13 @@
           <p>
             Para que os produtos sejam exibidos na loja (e-commerce) uma das principais requisições é o envio de
             estoque, é esperado o envio de SKU unitário ou caixa.</br></br>
-            Veja exemplo de uma requisição de estoque (SKU "Unitario"):
-            <br><br>
+            
+            
           </p>
           <figure>
-            <img src="./assets/img/Request-Stock1.png" />
+            <img src="./assets/img/endfluxo/Stock.png" />
           </figure>
-          <p>Veja exemplo de uma requisição de estoque (SKU "Caixa"):</p>
-          <figure>
-            <img src="./assets/img/Request-Stock2.png" />
-          </figure>
+          
           <p>
             Saiba mais em : <a
               href="https://ifcrollout.github.io/ifcrollout/index.html#02%20-%20Integra%C3%A7%C3%A3o%20de%20estoque"
@@ -126,17 +123,12 @@
           <p>
             Para que os produtos sejam exibidos na loja (e-commerce) uma outra importante requisição é o envio de preço,
             é esperado o envio de SKU unitário ou caixa com seu respectivo preço.</br></br>
-            Veja exemplo de uma requisição de preço (Apenas uma forma de pagamento):
-            <br><br>
+            
           </p>
           <figure>
-            <img src="./assets/img/Price1.png" />
+            <img src="./assets/img/endfluxo/Price.png" />
           </figure>
-          <p>Veja outro exemplo (com multiplas formas de pagamento em uma unica requisição):</p>
-          <figure>
-            <img src="./assets/img/Price2.png" />
-          </figure>
-          <p>
+          
             Saiba mais em : <a href="https://ifcrollout.github.io/ifcrollout/index.html#03%20-%20Pre%C3%A7os%20XML"
               target="_blank">Manual de integração B2B.</a>
           </p>
@@ -177,20 +169,10 @@
             Pricing, será necessário refazer os testes de homologação apenas considerando os cenários de
             preço.</br></br>
           </p>
-          <p>Veja outro exemplo de requisição com protocolo GET (Necessario para geração do token que será usado no
-            protocolo POST):</p>
           <figure>
-            <img src="./assets/img/PolicesGET.jpeg" />
+            <img src="./assets/img/endfluxo/Pricing.png" />
           </figure>
-          <p>Após receber o token deve ser gerado uma requisição de politica de preço com protocolo POST (Politica de
-            preços Default):</p>
-          <figure>
-            <img src="./assets/img/PolicesDefault.jpeg" />
-          </figure>
-          <p>Uma forma de ter preços diferenciados por cliente é utilizar (Politica de preços Cluster):</p>
-          <figure>
-            <img src="./assets/img/PolicesCluster.jpeg" />
-          </figure>
+          
           <p>
             Saiba mais em : <a
               href="https://ifcrollout.github.io/ifcrollout/index.html#04%20-%20Politica%20de%20pre%C3%A7os%20(JSON)"
@@ -216,19 +198,13 @@
             Clientes com PEN ou APV podem comprar em boleto a vista ou cartão de crédito.<br><br>
             Clientes com RPV não podem comprar na plataforma.<br><br>
             Clientes com APV + Limite de crédito podem comprar em condições a prazo (boleto faturado).<br><br>
-            </br></br>
+          
           </p>
-          <p>Veja um exemplo de requisição de cliente (Envio para o distribuidor):</p>
+          
           <figure>
-            <img src="./assets/img/Customer.png" />
+            <img src="./assets/img/endfluxo/Customer.png" />
           </figure>
-          <p>Veja um exemplo de requisição de status de cliente (Envio para o middleware):</p>
-          <figure>
-            <img src="./assets/img/StatusAPV.png" />
-          </figure>
-          <figure>
-            <img src="./assets/img/StatusRPV.png" />
-          </figure>
+          
           <p>
             Saiba mais em : <a
               href="https://ifcrollout.github.io/ifcrollout/index.html#05%20-%20Integra%C3%A7%C3%A3o%20de%20cliente"
@@ -247,12 +223,15 @@
           <p>
             Limite de crédito é necessário para que um determinado cliente possa comprar em condições a prazo, como
             boleto faturado 7,14,21,28 etc... É esperado que o Seller envie um valor de limite para seu cliente, existe
-            outras maneiras onde não é o Seller que envia o limite de crédito, um exemplo é a TM (Trade Master) onde a
+            outras maneiras de validação de limite de credito mas deve analisar ajunto ao projeto. <br><br>
+            <!--
+            um exemplo é a TM (Trade Master) onde a
             responsabilidade do limite fica por conta deles, estando disponíveis em lojas CA e FOODS.</br></br>
+            -->
           </p>
-          <p>Veja um exemplo de requisição de limite de crédito (Envio para o middleware):</p>
+          
           <figure>
-            <img src="./assets/img/Voucher.png" />
+            <img src="./assets/img/endfluxo/Voucher.png" />
           </figure>
           <p>
             Saiba mais em : <a
@@ -275,9 +254,9 @@
             prazo, com ou sem promoção, vale troca, entre outros.
             <br><br>
           </p>
-          <p>Veja um exemplo de requisição de pedido :</p>
+          
           <figure>
-            <img src="./assets/img/Order.png" />
+            <img src="./assets/img/endfluxo/Order.png" />
           </figure>
           <p>
             Saiba mais em : <a
@@ -340,13 +319,12 @@
             Condições de pagamento a prazo são de responsabilidade do distribuidor.
             </br></br>
           </p>
-          <p>Veja um exemplo de requisição de pagamento (Realizado de forma automatica):</p>
+          
           <figure>
-            <img src="./assets/img/Payment1.png" />
+            <img src="./assets/img/endfluxo/Payment.png" />
           </figure>
-          <figure>
-            <img src="./assets/img/Payment2.png" />
-          </figure>
+          
+          
           <p>
             Saiba mais em : <a
               href="https://ifcrollout.github.io/ifcrollout/index.html#09%20-%20Integra%C3%A7%C3%A3o%20de%20Pagamento"
