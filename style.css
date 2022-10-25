@@ -1099,8 +1099,9 @@ footer .social a:hover {
 }
 
 .faq figure {
-  margin: 1rem;
+  margin: 0;
   padding: 1rem;
+  border-left: 2px solid #3e3354;
 }
 
 .faq figure img {
