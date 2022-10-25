@@ -488,6 +488,7 @@ pre.preformatado {
   border-bottom: 0.25rem solid var(--base-color);
   margin-top: 2rem;
 }
+
 /*--*/
 
 .accordion{
@@ -1046,6 +1047,10 @@ footer .social a:hover {
   }
 
   /*==== FAQ ====*/
+
+ .section#box2, .section#box3, .section#box4, .section#box5 {
+  margin-left: -5%;
+ } 
 
 .faq {
   margin-left: 1rem;
