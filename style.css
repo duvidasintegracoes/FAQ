@@ -410,11 +410,28 @@ nav.show div.icon-cross {
   padding: 2% 0% 2% 5%;
 }
 
-.gg-wp {
+p.gg-wp {
   
-  color: #FFA925;
+  color: var(--base-color-alt);
+  margin-top: -2%;
+  
+  padding-left: 5%;
   font-size: 1.5rem;
   padding-bottom: 2rem;
+}
+
+.faq button {
+  background-color: var(--base-color);
+  color: var(--base-color-second);
+  font-size: 1.5rem;
+  padding: 1% 2%;
+  margin-left: -2%;
+  border-radius: 5%;
+  border: none;
+}
+
+pre.preformatado {
+  color: var(--base-color);
 }
 
 .return {
@@ -1039,6 +1056,9 @@ footer .social a:hover {
 .faq li {
   border-left: 2px solid #3e3354;
 }
+
+
+
 
 .faq p {
   border-left: 2px solid #3e3354;
