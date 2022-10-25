@@ -36,10 +36,10 @@
         <ul class="grid">
           <li><a class="title" href="#home">Introdução</a></li>
           <li><a class="title" href="#box2">Etapas de Implantação</a></li>
-          <li><a class="title" href="#box3"></a></li>
-          <li><a class="title" href="#box4">Acompanhamento</a></li>
-          <li><a class="title" href="#box5">Tipos de Rollout</a></li>
-          <li><a class="title" href="#box6">Prazos</a></li>
+          <li><a class="title" href="#box3">Tipos de Integração</a></li>
+          <li><a class="title" href="#box4">Prazos</a></li>
+          <li><a class="title" href="#box5"></a></li>
+          <li><a class="title" href="#box6"></a></li>
         </ul>
       </div>
       <!-- /menu -->
@@ -63,8 +63,10 @@
           <p>
             Por padrão, antes do início das integrações, a equipe de PMOs responsáveis realizam uma reunião apresentando
             o projeto (Kickoff), mostrando os prazos, como iniciar, e respondendo as dúvidas que possam aparecer no
-            momento. O PMO tambem é responsavel por criar o ticket de premissas (necessario para configuração do setup do distribuidor),
-            durante todo o processo por padrão é aberto o primeiro ticket de premissas para configuração do ambiente de homologação, após está configuração é iniciado os testes. <br> <br>
+            momento. O PMO tambem é responsavel por criar o ticket de premissas (necessario para configuração do setup
+            do distribuidor),
+            durante todo o processo por padrão é aberto o primeiro ticket de premissas para configuração do ambiente de
+            homologação, após está configuração é iniciado os testes. <br> <br>
           </p>
           <p>
             Após o termino dos testes em homologação é solicitado um 2º ticket (virada) para o ambiente de produção.
@@ -76,7 +78,7 @@
 
     <div class="divider-1"></div>
 
-    
+
     <section class="section" id="box2">
       <div class="container grid">
         <div class="faq">
@@ -86,18 +88,22 @@
           <p> <strong>Acompanhamento</strong> <br> <br></p>
           <p>
             Os testes são feitos sempre em conjunto, Distribuidor - Infracommerce, e durante toda a etapa de Rollout o
-            distribuidor terá um analista disponível via Skype ou Chat (Ferramenta de Google) durante todo horário comercial, de
+            distribuidor terá um analista disponível via Skype ou Chat (Ferramenta de Google) durante todo horário
+            comercial, de
             segunda a sexta feira.
             <br><br>
           </p>
           <p>
-            E nesse período serão realizados os cenários apontados pelo analista, assim como também podem ser solucionadas duvidas
+            E nesse período serão realizados os cenários apontados pelo analista, assim como também podem ser
+            solucionadas duvidas
             do processo. Terá também no grupo o PMO do projeto para apoiar em qualquer eventualidade.
             <br><br>
           </p>
           <p>
-            Caso ocorra que o Analista Infracommerce, responsável pelo projeto, não esteja disponível, será alocado outro analista
-            para auxiliar e dar continuidade aos testes. Durante toda a fase de testes, desde as validações iniciais até a
+            Caso ocorra que o Analista Infracommerce, responsável pelo projeto, não esteja disponível, será alocado
+            outro analista
+            para auxiliar e dar continuidade aos testes. Durante toda a fase de testes, desde as validações iniciais até
+            a
             operação assistida (Go Live), sempre terá um analista para acompanhar o processo.
             <br><br>
           </p>
@@ -107,15 +113,20 @@
           </p>
           <p> <strong>Desenvolvimento</strong> <br> <br></p>
           <p>
-            Após a reunião de apresentação do projeto, e o envio do arquivo zip com os dados necessários, o distribuidor deve
-            efetuar o desenvolvimento dos três Endpoints, sendo eles: CUSTOMER, ORDER e PAYMENT, necessários para a comunicação
+            Após a reunião de apresentação do projeto, e o envio do arquivo zip com os dados necessários, o distribuidor
+            deve
+            efetuar o desenvolvimento dos três Endpoints, sendo eles: CUSTOMER, ORDER e PAYMENT, necessários para a
+            comunicação
             entre plataforma e ERP.
             <br><br>
           </p>
           <p>
-            Seguindo com o fluxo de integração,<strong> antes do analista enviar os Endpoints e credenciais de acesso da infracommerce,
-            precisará receber primeiro os endpoints do distribuidor</strong>. Isso é porque para que possamos criar o Setup da loja, e
-            obter assim as credenciais de acesso dos Endpoints IFC, precisaremos também informar os endpoints do distribuidor
+            Seguindo com o fluxo de integração,<strong> antes do analista enviar os Endpoints e credenciais de acesso da
+              infracommerce,
+              precisará receber primeiro os endpoints do distribuidor</strong>. Isso é porque para que possamos criar o
+            Setup da loja, e
+            obter assim as credenciais de acesso dos Endpoints IFC, precisaremos também informar os endpoints do
+            distribuidor
             mencionados no início.
             <br><br>
           </p>
@@ -130,211 +141,214 @@
             <i>Após a validação dos endpoints solicitamos o ticket de premissas de HOM para a equipe de projetos. Com o
               ticket de premissas emitido, iniciamos as configurações do ambiente.</i></br></br>
           </p>
-          <p> Saiba mais sobre o desenvolvimento no <a href="https://manualdeintegracoesb2b.github.io/B2B/">manual de  integração B2B</a>. <br><br></p>
+          <p> Saiba mais sobre o desenvolvimento no <a href="https://manualdeintegracoesb2b.github.io/B2B/">manual de
+              integração B2B</a>. <br><br></p>
           <h4>2 - Etapas de testes em homologação</h4>
           <p><br></p>
           <p>
             O Ambiente de homologação (HCP) é configurado pela equipe de testes e integrações,
             após a disponibilização do ticket de premissas.
-            Estando o setup (Loja) já configurado é passado os endpoints para o distribuidor configurar em seu ambiente, após a confirmação do distribuidor,
+            Estando o setup (Loja) já configurado é passado os endpoints para o distribuidor configurar em seu ambiente,
+            após a confirmação do distribuidor,
             é iniciado as etapas de testes em ambinete de homologação, são elas :
-          </br></br>
+            </br></br>
           </p>
           <p> <strong>Pré Rollout</strong></p>
           <p><br>
             É um resumo dos testes completos de HCP a fim de validar todos os endpoints e tipos de integração que serão
             realizadas no decorrer da homologação.</br>
-           
-              <p class="gg-wp">
-                <br>
-                  [Distribuidor]
-                  <br>
-                  Envio de todo o estoque que irá utilizar em ambiente de homologação, recomendado 3 SKU´s unitarios e 3 SKU´s caixa.
-                 <br><br>
-                  [Distribuidor]
-                  <br>
-                  Envio de politica de preço default dos mesmos sku´s que foram utilizados no envio de estoque.
-                  <br><br>
-                  [Infracommerce]
-                  <br>
-                  Envio de um cliente para o ambiente do distribuidor.
-                 <br><br>
-                 [Distribuidor]
-                  <br>
-                  Envio do primeiro limite de crédito.
-                 <br><br>
-                 [Infracommerce]
-                  <br>
-                  Envio do primeiro pedido em condição boleto a vista, enviando aprovação de pagamento (AP), faturado por completo.
-                 <br><br>
-                 [Distribuidor]
-                  <br>
-                  Mudar status do cliente pendente (PEN) para reprovado (RPV).
-                 <br><br>
-                 [Distribuidor]
-                  <br>
-                  Enviar atualização de politica de preços default.
-                 
-              </p>
-            
-            
-            
-            <p><br></p>
+
+          <p class="gg-wp">
+            <br>
+            [Distribuidor]
+            <br>
+            Envio de todo o estoque que irá utilizar em ambiente de homologação, recomendado 3 SKU´s unitarios e 3 SKU´s
+            caixa.
+            <br><br>
+            [Distribuidor]
+            <br>
+            Envio de politica de preço default dos mesmos sku´s que foram utilizados no envio de estoque.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Envio de um cliente para o ambiente do distribuidor.
+            <br><br>
+            [Distribuidor]
+            <br>
+            Envio do primeiro limite de crédito.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Envio do primeiro pedido em condição boleto a vista, enviando aprovação de pagamento (AP), faturado por
+            completo.
+            <br><br>
+            [Distribuidor]
+            <br>
+            Mudar status do cliente pendente (PEN) para reprovado (RPV).
+            <br><br>
+            [Distribuidor]
+            <br>
+            Enviar atualização de politica de preços default.
+
+          </p>
+          <!--
+            <p>
+              <strong>Payment - Pagamento</strong> : <br>
+              Efetua-se o envio de pagamento AP e RP para simular pedidos com pagamento à vista. Por exemplo: Pedido boleto à vista, Cartão de Crédito e Vale Troca.
+              <br><br>
+            </p>
+            <p>
+              <strong>Status de pedidos - Trackings</strong> : <br>
+              Cenários de envio de status de pedido, deste pedido em separação e embalagem ou limite de crédito liberado, a até nota fiscal emitida, pedido faturado, em rota de entrega e pedido entregue. Também é realizado testes com a tracking correspondente ao cancelamento de um pedido.
+              <br><br>
+            </p>
+            -->
+          <p><br></p>
           </p>
           <p><strong>Cliente e limite de crédito</strong></p>
           <p><br>
-            Solicitado o envio de atualização de status de cliente e limite de crédito, alem da loja enviar atualização do cadastro de cliente.
+            Solicitado o envio de atualização de status de cliente e limite de crédito, alem da loja enviar atualização
+            do cadastro de cliente.
             <br><br>
 
           </p>
-          
-            <p class="gg-wp">
-              <br>
-                [Distribuidor]
-                <br>
-                Envia atualização de status passando o cliente de reprovado (RPV) para aprovado (APV), com limite de crédito no valor de R$ 5.000,00.
-               <br><br>
-                [Infracommerce]
-                <br>
-                Envia atualização de cadastro de cliente, alterando o numero de telefone.
-            </p>
-       
+
+          <p class="gg-wp">
+            <br>
+            [Distribuidor]
+            <br>
+            Envia atualização de status passando o cliente de reprovado (RPV) para aprovado (APV), com limite de crédito
+            no valor de R$ 5.000,00.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Envia atualização de cadastro de cliente, alterando o numero de telefone.
+          </p>
+
           <p><br></p>
           <p><strong>Pedidos com politica de preço default.</strong></p>
           <p><br>
-            Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em produção. Utilizando preços da politica default.</br></br>
+            Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em produção.
+            Utilizando preços da politica default.</br></br>
           </p>
-          
-            <p class="gg-wp">
-              <br>
-                [Infracommerce]
-                <br>
-                Envia pedido boleto a vista, com aprovação ou reprovação de pagamento.
-               <br><br>
-                [Infracommerce]
-                <br>
-                Envia pedido com cartão de crédito, com aprovação ou reprovação de pagamento.
-                <br><br>
-                [Infracommerce]
-                <br>
-                Envia pedido com pagamento PIX, com aprovação ou reprovação de pagamento.
-               <br><br>
-               [Infracommerce]
-                <br>
-                Pedido já integrado.
-               <br><br>
-               [Infracommerce]
-                <br>
-                Envio de pedido com SKU CX pago via vale troca e faturado por completo.
-               <br><br>
-            </p>
-          
-          
+
+          <p class="gg-wp">
+            <br>
+            [Infracommerce]
+            <br>
+            Envia pedido boleto a vista, com aprovação ou reprovação de pagamento.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Envia pedido com cartão de crédito, com aprovação ou reprovação de pagamento.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Envia pedido com pagamento PIX, com aprovação ou reprovação de pagamento.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Pedido já integrado.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Envio de pedido com SKU CX pago via vale troca e faturado por completo.
+            <br><br>
+          </p>
+
+
           <p><strong>Preço</strong></p>
           <p><br>
-            Solicitado o envio de politica de preços cluster, com informação de CNPJ do cliente que terá preço diferente da politica default.</br></br>
+            Solicitado o envio de politica de preços cluster, com informação de CNPJ do cliente que terá preço diferente
+            da politica default.</br></br>
           </p>
           <p class="gg-wp">
             <br>
-              [Distribuidor]
-              <br>
-              Envia preços da politica cluster diferentes dos preços integrados para a política DEFAULT. Deve enviar nesta política cluster o cliente cadastrado no pré-rollout.
-             <br><br>
+            [Distribuidor]
+            <br>
+            Envia preços da politica cluster diferentes dos preços integrados para a política DEFAULT. Deve enviar nesta
+            política cluster o cliente cadastrado no pré-rollout.
+            <br><br>
           <p><strong>Pedidos com politica cluster</strong></p>
           <p><br>
-            Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em produção. Utilizando preços da politica cluster.</br></br>
+            Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em produção.
+            Utilizando preços da politica cluster.</br>
           </p>
           <p class="gg-wp">
             <br>
-              [Infracommerce]
-              <br>
-              Envia Pedido boleto a vista, reprovado e cancelado.
-             <br><br>
-              [Infracommerce]
-              <br>
-              Pedido cartão de crédito, reprovado e cancelado.
-              <br><br>
-              [Infracommerce]
-              <br>
-              Pedido boleto 21 dias, reprovado e cancelado.
-             <br><br>
-             [Infracommerce]
-              <br>
-              Pedido boleto 28 dias, faturado parcialmente.
-             <br><br>
-             [Infracommerce]
-              <br>
-              Pedido boleto faturado, kit promocional, faturado por completo.
-             <br><br>
-             [Infracommerce]
-              <br>
-              Pedido boleto a vista + vale troca, aprovado e faturado por completo.
-             <br><br>
-             [Infracommerce]
-              <br>
-              Dois pedidos com pagamento PIX.
-             <br><br>
-             [Infracommerce]
-              <br>
-              Pedido pago com PIX + Vale troca.
-             <br><br>
+            [Infracommerce]
+            <br>
+            Envia Pedido boleto a vista, reprovado e cancelado.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Pedido cartão de crédito, reprovado e cancelado.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Pedido boleto 21 dias, reprovado e cancelado.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Pedido boleto 28 dias, faturado parcialmente.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Pedido boleto faturado, kit promocional, faturado por completo.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Pedido boleto a vista + vale troca, aprovado e faturado por completo.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Dois pedidos com pagamento PIX.
+            <br><br>
+            [Infracommerce]
+            <br>
+            Pedido pago com PIX + Vale troca.
+            <br><br>
           </p>
           <p><strong>Atualizar politica de preço</strong></p>
           <p><br>
-            Solicitado o envio de atualização da politica de preços cluster alem de mover um cliente da politica cluster para politica default.</br></br>
+            Solicitado o envio de atualização da politica de preços cluster alem de mover um cliente da politica cluster
+            para politica default.</br>
           </p>
           <p class="gg-wp">
             <br>
-              [Distribuidor]
-              <br>
-              Envia atualização de preço da politica cluster.
-             <br><br>
-             [Distribuidor]
-              <br>
-              Envio da política default com o CNPJ do cliente presente na política CLUSTER..
-             <br><br>
+            [Distribuidor]
+            <br>
+            Envia atualização de preço da politica cluster.
+            <br><br>
+            [Distribuidor]
+            <br>
+            Envio da política default com o CNPJ do cliente presente na política CLUSTER..
+            <br><br>
           </p>
-          <h4>4. Etapa de testes</h4>
-          <p><br>
-            É dividido em etapas de pedidos, pagamentos, faturamentos e cancelamento e atualização de preços*( quando
-            usado políticas de preço).</br></br>
+          <h4>3 - Virada para produção</h4>
+          <p><br></p>
+          <p>
+            Ao término dos testes de homologação é solicitado os endpoints de produção que serão utilizados pelo Seller,
+            com os endpoints em mãos, é solicitado a abertura do ticket de premissas de PRD à equipe de
+            projetos.</br></br>
           </p>
-          <h5>4.1 Pedido (Order)</h5>
-          <p><br>
-            Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em
-            produção.</br></br>
+          <p>
+            Efetuada a configuração em ambiente de produção com os endpoints e credenciais de ambiente produção do Selle
+            presentes no ticket de premissas de PRD.
+            <br><br>
           </p>
-          <h5>4.2 Pagamento (Payment)</h5>
-          <p><br>
-            Efetua-se o envio de pagamento AP e RP para simular pedidos com pagamento à vista. Por exemplo: Pedido
-            boleto à vista, Cartão de Crédito e Vale Troca.</br></br>
-          </p>
-          <h5>4.3 Status de pedidos (Trackings)</h5>
-          <p><br>
-            Cenários de envio de status de pedido, deste pedido em separação e embalagem ou limite de crédito liberado,
-            a até nota fiscal emitida, pedido faturado, em rota de entrega e pedido entregue. Também é realizado testes
-            com a tracking correspondente ao cancelamento de um pedido.</br></br>
-            <i>Ao término dos testes de homologação é solicitado os endpoints de produção que serão utilizados pelo
-              Seller, com os endpoints em mãos, é solicitado a abertura do ticket de premissas de PRD à equipe de
-              projetos.</i><br><br>
-          </p>
-          <h4>5. Configuração de ambiente (PRD).</h4>
-          <p><br>
-            Efetuada a configuração em ambiente de produção com os endpoints e credenciais de ambiente PROD do Selle
-            presentes no ticket de premissas de PRD.</br></br>
-          </p>
-          <h4>6. Testes (PRD).</h4>
-          <p><br>
+          <P>
             Cenários reduzidos de testes abrangendo envio de Estoque, preços, Cadastro de cliente, envio de Status APV,
             Limite de crédito, emissão de pedido que logo deve ser cancelado e envio massivo de clientes já cadastrados
             na plataforma que estejam dentro do atendimento por faixa de cep configurados para o Seller(etapa necessária
             para novos Seller’s na plataforma e não necessário para homologação de melhorias de clientes já em
-            produção).</br></br>
-          </p>
-          <h4>7. Operação assistida (GO Live).</h4>
-          <p><br>
+            produção). <br><br>
+          </P>
+          <h4>4. Operação assistida (GO Live).</h4>
+          <p><br></p>
+          <p>
             Após o termino dos testes em produção (PRD) é aprovação por parte da indústria e PMO é iniciado a operação
-            assistida geralmente tendo um período de 15 dias corridos, realizando o acompanhamento do fluxo de
+            assistida geralmente tendo um período de 10 dias corridos, realizando o acompanhamento do fluxo de
             integrações e relatório diário sobre a quantidade de requisições. </br></br>
           </p>
         </div>
@@ -346,9 +360,78 @@
     <section class="section" id="box3">
       <div class="container grid">
         <div class="faq">
-          <h2 class="title">Etapas de testes em homologação</h2>
+          <h2 class="title">Tipos de Integração</h2>
+
+          <h4>Integração padrão</h4>
+          <p><br></p>
           <p>
-            ""
+            Essa integração consiste em todos os cenários de homologação, desde envio de estoque e preço, cadastro de
+            clientes, envio e remoção de limite de crédito, envio de todas as formas de pedidos em todas as modalidades
+            de pagamento, e envios de tracking. Em resumo, iremos a testar o fluxo de vida completo de vários tipos de
+            pedido.
+          </p>
+          <p>
+            <br>
+            Para execução deste tipo de integração é necessario os testes de:
+          <pre>
+- Desenvolvimento
+- Pré Rollout
+- Cliente e limite de crédito
+- Pedidos com politica de preço DEFAULT
+- Preço
+- Pedidos com politica de preço CLUSTER
+- Atualizar politica de preço
+- Virada para produção
+- Operação Assistida (Go Live)
+</pre>
+          </p>
+          <h4>Integração padrão + LTM</h4>
+          <p><br></p>
+          <p>
+            É um meio de pagamento apenas disponível para as Lojas Compra Agora, também chamado Vale Compra Agora, e que
+            está mais detalhado no Manual de integrações. Assim como os testes de Pricing, existe a possibilidade de
+            realizar testes apenas com LTM, caso o distribuidor precise implementar essa forma de pagamento.
+            Os testes se referem a integração de pagamentos de pedidos via LTM, onde serão realizados diversos pedidos
+            junto com outras formas de pagamento. Exemplo: LTM + Cartão de Crédito.
+          </p>
+          <p>
+            <br>
+            Para execução deste tipo de integração é necessario os testes de:
+          <pre>
+- Desenvolvimento
+- Pré Rollout
+- Cliente e limite de crédito
+- Pedidos com politica de preço DEFAULT
+- Preço
+- Pedidos com politica de preço CLUSTER
+- Peidos pagos via LTM
+- Atualizar politica de preço
+- Virada para produção
+- Operação Assistida (Go Live)
+</pre>
+          </p>
+          <h4>Integração de melhoria Pricing</h4>
+          <p><br></p>
+          <p>
+            Pricing se refere ao envio das Políticas de Preço, com a possibilidade de valores diferenciados por CNPJ de
+            cliente.
+
+
+            Caso um distribuidor já se encontre em produção com o modelo de preços convencional, e queira implementar o
+            modulo Pricing, será necessário refazer os testes de homologação apenas considerando os cenários de preço e
+            pedidos. 
+          </p>
+          <p>
+            <br>
+            Para execução deste tipo de integração é necessario os testes de:
+          <pre>
+- Cliente e limite de crédito
+- Pedidos com politica de preço DEFAULT
+- Preço
+- Pedidos com politica de preço CLUSTER
+- Atualizar politica de preço
+- Virada para produção
+</pre>
           </p>
         </div>
 
@@ -360,98 +443,12 @@
     <section class="section" id="box4">
       <div class="container grid">
         <div class="faq">
-          <h2 class="title">Acompanhamento</h2>
-          <p>
-            Os testes são feitos sempre em conjunto, Distribuidor - Infracommerce, e durante toda a etapa de Rollout o
-            distribuidor terá um analista disponível via Skype ou Chat (Ferramenta de Google) durante todo horário
-            comercial, de segunda a sexta feira.
-            </br></br>
-            E nesse período serão realizados os cenários apontados pelo analista, assim como também podem ser
-            solucionadas duvidas do processo. Terá também no grupo o PMO do projeto para apoiar em qualquer
-            eventualidade.
-            </br></br>
-            Caso ocorra que o Analista Infracommerce, responsável pelo projeto, não esteja disponível, será alocado
-            outro analista para auxiliar e dar continuidade aos testes. Durante toda a fase de Rollout, desde as
-            validações iniciais até a operação assistida, sempre terá um analista para acompanhar o processo.
-            </br></br>
-            A infracommerce sempre se compromete com a excelência no atendimento de nossos distribuidores.
-            </br></br>
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="divider-2"></div>
-
-    <section class="section" id="box5">
-      <div class="container grid">
-        <div class="faq">
-          <h2 class="title">Tipos de Rollout</h2>
-          <p>
-            Neste artigo abordaremos os diferentes tipos de Rollout, o que é considerado em cada um deles, e também detalharemos os testes por tipo de pagamento, com um resumo das novas funcionalidades. Lembrando que para cada tipo de Rollout existe um quadro com mais ou menos cenários, dependendo da necessidade, em essa lista pode ser conferida no artigo Como Funciona o Monday.
-            </br></br>
-          </p>
-          <h4>1. ROLLOUT</h4>
-          <p><br>
-            Estes testes consideram todos os cenários de homologação, desde envio de estoque e preço (modelo XML), cadastro de clientes, envio e remoção de limite de crédito, envio de todas as formas de pedidos em todas as modalidades de pagamento, e envios de tracking. Em resumo, iremos a testar o fluxo de vida completo de vários tipos de pedido.
-            Para mais detalhes sobre a lista dos pontos que serão validados, pode consultar o artigo dedicado ao quadro de Monday e seu preenchimento.
-            <br><br>
-            <strong>OBS</strong>: <i>O modelo XML mencionado acima, é o modelo do arquivo no qual serão enviados os preços do ERP para a plataforma. Para mais detalhes do tipo de preço e as tabelas necessárias por favor consultar o manual de integração.</br></br></i>
-          </p>
-          <h4>2. PRICING</h4>
-          <p><br>
-            Aqui vamos abordar de forma mais generalizada do que trata o Pricing, mas se quiser entender mais a fundo o significado e o processo, por favor consultar o artigo Pricing disponível no menu inicial. Também, em caso de dúvidas técnicas, sempre poderá encontrar as respostas no nosso manual de integração.</p>
-            <p><br>Pricing se refere ao envio das Políticas de Preço, com a possibilidade de valores diferenciados por CNPJ de cliente. </p>
-            <p><br>Caso um distribuidor já se encontre em produção com o modelo de preços convencional, e queira implementar o modulo Pricing, será necessário refazer os testes de homologação apenas considerando os cenários de preço e pedidos. Tem também o artigo Uso do Monday, onde no final tem uma lista da quantidade de tarefas para esse tipo de testes.<br><br></p>
-          </p>
-          <h4>3. LTM</h4>
-          <p><br>
-            É um meio de pagamento apenas disponível para as Lojas Compra Agora, também chamado Vale Compra Agora, e que está mais detalhado no Manual de integrações.  Assim como os testes de  Pricing, existe a possibilidade de realizar testes apenas com LTM, caso o distribuidor precise implementar essa forma de pagamento. </p>
-            <p><br>Os testes se referem a integração de pagamentos de pedidos via LTM, onde serão realizados diversos pedidos junto com outras formas de pagamento. Exemplo: LTM + Cartão de Crédito.<br><br></p>
-            
-          </p>
-
-          <h4>4. PIX</h4>
-          <p><br>
-            Essa nova forma de pagamento a vista e suas particularidades técnicas referentes ao desenvolvimento podem ser consultadas no Manual de Integração. </p>
-            <p><br>
-              No caso dos testes, mantem o padrão detalhado anteriormente, pois existe a possibilidade de um distribuidor que já está em produção de refazer apenas a homologação para testar e, posteriormente, implementar também o PIX. </p>
-
-            <p><br>Os cenários testados incluem pedidos com PIX + Vale troca, que é a única forma de pagamento que pode ser implementada junto com o PIX, assim como outros cenários de aprovação de pagamento.<br><br></p>
-            
-          </p>
-
-          <h4>5. CASHBACK</h4>
-          <p><br>
-            O Cashback é uma forma de economizar dinheiro na próxima compra, já que o saldo é armazenado na plataforma e você pode utilizá-lo como um desconto no próximo pedido. Mas nem todos os produtos deverão necessariamente oferecer Cashback, apenas estará disponível nos produtos selecionados para este tipo de benefício.</p>
-            <p><br>
-              Os detalhes técnicos referentes ao desenvolvimento estão disponíveis no Manual de integração.  Mas seu funcionamento básico é permitir que uma porcentagem da compra seja devolvida para o cliente, permitindo assim que esse valor seja usado novamente. O Cashback pode ser implementado em conjunto com outras formas de pagamento. Por exemplo: Cashback + Boleto à vista, ou Cartão de crédito.<br><br></p>
-            
-          </p>
-          <h4>6. MÓDULO DE CRÉDITO</h4>
-          <p><br>
-            É uma nova funcionalidade onde o limite de crédito passa ser gerenciado pela Infracommerce. No momento do envio existem diferencias técnicas que devem ser tomadas em consideração do lado do distribuidor, e que são explicadas no Manual de Integração.</p>
-            <p><br>
-              Mas de forma resumida, o distribuidor não precisará, caso escolha trabalhar com esse modulo, enviar mais o limite de crédito, pois a Infracommerce passará a ser responsável pelo envio desse limite e aprovação dos pedidos.</p>
-            <br><br>
-          </p>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="divider-1"></div>
-
-    <section class="section" id="box6">
-      <div class="container grid">
-        <div class="faq">
           <h2 class="title">Duração dos Testes</h2>
           <p>
             O tempo estimado para finalização de todos os cenários de testes em homologação e produção no Rollout são de
             <strong>30 dias</strong>.
             </br></br>
-            E adicionalmente teremos outros <strong>15 dias</strong> de acompanhamento na Operação Assistida.
+            E adicionalmente teremos outros <strong>10 dias</strong> de acompanhamento na Operação Assistida.
             </br></br>
             <!--Inicio : Tabelas FAQ-->
           <div class="tabelas">
@@ -488,7 +485,7 @@
                 </tbody>
               </table>
               <!--Tabela 2--></br></br>
-              <table >
+              <table>
                 <caption>Testes completos em Homologação</caption>
 
                 <thead>
@@ -520,7 +517,7 @@
                 </tbody>
               </table>
               <!--Tabela 3--> </br></br>
-              <table >
+              <table>
                 <caption>Testes completos em Produção</caption>
 
                 <thead>
@@ -553,7 +550,7 @@
                 </tbody>
               </table>
               <!--Tabela 4--> </br></br>
-              <table >
+              <table>
                 <caption>Operação Assistida</caption>
 
                 <thead>
@@ -565,8 +562,9 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Acompanhar 15 dias corridos as integrações após iniciado o Go Live. Enviar Reportes diários das requisições enviadas e recebidas e evidenciar no Monday. </td>
-                    <td class="centro" rowspan="4"> 15 dias</td>
+                    <td>Acompanhar 10 dias corridos as integrações após iniciado o Go Live. Enviar Reportes diários das
+                      requisições enviadas e recebidas e evidenciar no Monday. </td>
+                    <td class="centro" rowspan="4"> 10 dias</td>
                   </tr>
                 </tbody>
               </table><br><br>
@@ -580,8 +578,8 @@
           </p>
           <div class="tabelas">
             <div class="layout-table">
-              <!--Tabela 6--> 
-              <table >
+              <!--Tabela 6-->
+              <table>
                 <caption>SLA - Prazos</caption>
 
                 <thead>
@@ -617,7 +615,7 @@
               </table>
               <!--Tabela 5--></br></br>
               <table>
-<!--                <caption>Etapas do Pre-Rollout em Homologação</caption>-->
+                <!--                <caption>Etapas do Pre-Rollout em Homologação</caption>-->
 
                 <thead>
                   <tr>
@@ -629,7 +627,8 @@
                 <tbody>
                   <tr>
                     <td class="centro">CRÍTICO</td>
-                    <td class="centro">Eventos que impedem o fechamento de pedidos para 100% dos usuários em produção.</td>
+                    <td class="centro">Eventos que impedem o fechamento de pedidos para 100% dos usuários em produção.
+                    </td>
                   </tr>
                   <tr>
                     <td class="centro">ALTA</td>
@@ -637,7 +636,8 @@
                   </tr>
                   <tr>
                     <td class="centro">MÉDIA</td>
-                    <td class="centro">Eventos que impedem o fechamento de pedidos para menos que 100% dos usuários.</td>
+                    <td class="centro">Eventos que impedem o fechamento de pedidos para menos que 100% dos usuários.
+                    </td>
 
                   </tr>
                   <tr>
@@ -647,8 +647,8 @@
                   </tr>
                 </tbody>
               </table>
-              </div>
-              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -661,7 +661,8 @@
     <div class="container grid">
       <div class="brand">
         <div class="logoft">
-          <a href="https://www.infracommerce.com.br/" target="_blank"><img src="assets/img/GifInfracommerce.gif" alt="GifInfracommerce" /></a>
+          <a href="https://www.infracommerce.com.br/" target="_blank"><img src="assets/img/GifInfracommerce.gif"
+              alt="GifInfracommerce" /></a>
           <!--<a class="logo" href="#">beauty<span>salon</span>.</a> -->
         </div>
         <!--<a class="logo logo-alt" href="#home">pantheon<span>.net</span>.br</a> -->

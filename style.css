@@ -406,8 +406,8 @@ nav.show div.icon-cross {
 
 .faq pre {
   border-left: 5px solid #3e3354;
-  font-size: 1rem;
-  padding-left: 15%;
+  font-size: 2rem;
+  padding: 2% 0% 2% 5%;
 }
 
 .gg-wp {
@@ -582,6 +582,13 @@ nav.show div.icon-cross {
   }
   .accordion .accordion-text{
     width: 63%;
+  }
+
+  .gg-wp {
+  
+    color: #FFA925;
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
   }
 }
 @media (max-width: 820px) {
