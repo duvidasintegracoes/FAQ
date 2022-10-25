@@ -55,12 +55,13 @@
         <div class="faq">
           <h2 class="title">Introdução</h2>
           <p>
-            <strong>Implantação B2B</strong> é o processo de testes entre o distribuidor e a plataforma Infra.Shop,
-            realizando validação de
-            requisições de preço, estoque, cliente, status, pedidos, pagamentos e trackings, garantindo a integridade de
-            dados, o
-            fluxo de testes é dividido em duas etapas a de homologação (HCP) e produção (PRD).</br></br>
+            <strong> Implantação B2B</strong> é o processo de testes entre o distribuidor e a plataforma Infrashop, durante todo esse
+            processo, envolvem integrações de estoque, preço, cliente, status, pedidos, pagamentos e trackings,
+            garantindo a integridade de dados, e consistência das integrações. O fluxo de testes é dividido em duas
+            etapas: Homologação (HCP) e Produção (PRD). <br><br>
           </p>
+          
+          
           <p>
             Por padrão, antes do início das integrações, a equipe de PMOs responsáveis realizam uma reunião apresentando
             o projeto (Kickoff), mostrando os prazos, como iniciar, e respondendo as dúvidas que possam aparecer no
@@ -120,12 +121,20 @@
             entre plataforma e ERP.
             <br><br>
           </p>
+          <p>
+            Os endpoints devem ser protegidos por usuário e senha e possuir certificado digital instalado.
+            Recomendamos o modelo SSL Wildcard. <br><br>
+          </p>
           <p>O desenvolvimento dos três endpoints publicados em ambiente do distribuidor, são os pré-requisitos que
-            solicitamos para liberarmos as credenciais da infracommerce, responsável para os envios de stock, preço, status de cliente, limite de
+            solicitamos para liberarmos as credenciais da infracommerce, responsável para os envios de stock, preço,
+            status de cliente, limite de
             crédito e tracking. É de extrema importância que o distribuidor desenvolva esses tópicos para
             que no início dos testes sejam fluídos. <br><br></p>
           <p>
-            Seguindo com o fluxo de integração, com os endpoints desenvolvidos pelo distribuidor <i>(Customer, Order e Payment)</i> e disponibilizado à equipe de testes, é criado o setup da loja para inicio dos testes em homologação, após essa configuração a equipe de testes disponibiliza os endpoints <i>(Stock, Pricing, Customer, Tracking, Voucher)</i> para o distribuidor também configura em seu ambiente.
+            Seguindo com o fluxo de integração, com os endpoints desenvolvidos pelo distribuidor <i>(Customer, Order e
+              Payment)</i> e disponibilizado à equipe de testes, é criado o setup da loja para inicio dos testes em
+            homologação, após essa configuração a equipe de testes disponibiliza os endpoints <i>(Stock, Pricing,
+              Customer, Tracking, Voucher)</i> para o distribuidor também configura em seu ambiente.
             <br><br>
           </p>
           <p>
@@ -160,61 +169,61 @@
           <p><br>
             É um resumo dos testes completos de HCP a fim de validar todos os endpoints e tipos de integração que serão
             realizadas no decorrer da homologação.</br> <br>
-            </p>
+          </p>
 
-          
-            <p>
+
+          <p>
             <button type="submit">Distribuidor</button>
-            </p>
-            <p class="gg-wp">
+          </p>
+          <p class="gg-wp">
             <br>
             Envio de todo o estoque que irá utilizar em ambiente de homologação, recomendado 3 SKU´s unitarios e 3 SKU´s
             caixa.
-            </p>
-            <p>
+          </p>
+          <p>
             <button type="submit">Distribuidor</button>
-            </p>
-            <p class="gg-wp">
-              <br>
+          </p>
+          <p class="gg-wp">
+            <br>
             Envio de politica de preço default dos mesmos sku´s que foram utilizados no envio de estoque.
-            </p>
-            <p>
+          </p>
+          <p>
             <button type="submit">Infracommerce</button>
-            </p>
-            <p class="gg-wp">
-              <br>
+          </p>
+          <p class="gg-wp">
+            <br>
             Envio de um cliente para o ambiente do distribuidor.
-            </p>
-            <p>
+          </p>
+          <p>
             <button type="submit">Distribuidor</button>
-            </p>
-            <p class="gg-wp">
-              <br>
+          </p>
+          <p class="gg-wp">
+            <br>
             Envio do primeiro limite de crédito.
-            </p>
-            <p>
+          </p>
+          <p>
             <button type="submit">Infracommerce</button>
-            </p>
-            <p class="gg-wp">
-              <br>
+          </p>
+          <p class="gg-wp">
+            <br>
             Envio do primeiro pedido em condição boleto a vista, enviando aprovação de pagamento (AP), faturado por
             completo.
-            </p>
-            <p>
+          </p>
+          <p>
             <button type="submit">Distribuidor</button>
-            </p>
-            <p class="gg-wp">
-              <br>
+          </p>
+          <p class="gg-wp">
+            <br>
             Mudar status do cliente pendente (PEN) para reprovado (RPV).
-            </p>
-            <p>
+          </p>
+          <p>
             <button type="submit">Distribuidor</button>
-            </p>
-            <p class="gg-wp">
-              <br>
+          </p>
+          <p class="gg-wp">
+            <br>
             Enviar atualização de politica de preços default.
-            </p>
-          
+          </p>
+
           <!--
             <p>
               <strong>Payment - Pagamento</strong> : <br>
@@ -238,111 +247,111 @@
           </p>
           <p>
             <button type="submit">Distribuidor</button>
-            <p class="gg-wp">
-              <br>
-              Envia atualização de status passando o cliente de reprovado (RPV) para aprovado (APV), com limite de crédito
+          <p class="gg-wp">
+            <br>
+            Envia atualização de status passando o cliente de reprovado (RPV) para aprovado (APV), com limite de crédito
             no valor de R$ 5.000,00.
-            </p>
+          </p>
           </p>
 
           <p>
             <button type="submit">Infracommerce</button>
-            <p class="gg-wp">
-              <br>
-              Envia atualização de cadastro de cliente, alterando o numero de telefone.
-            </p>
+          <p class="gg-wp">
+            <br>
+            Envia atualização de cadastro de cliente, alterando o numero de telefone.
           </p>
-          
+          </p>
 
-         
+
+
           <p><br></p>
           <p><strong>Pedidos com politica de preço default.</strong></p>
           <p><br>
             Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em produção.
             Utilizando preços da politica default.</br></br>
           </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
-              <br>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
+            <br>
             Envia pedido boleto a vista, com aprovação ou reprovação de pagamento.
           </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
-              <br>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
+            <br>
             Envia pedido com cartão de crédito, com aprovação ou reprovação de pagamento.
           </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
-              <br>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
+            <br>
             Envia pedido com pagamento PIX, com aprovação ou reprovação de pagamento.
           </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
-              <br>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
+            <br>
             Pedido já integrado.
           </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
-              <br>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
+            <br>
             Envio de pedido com SKU CX pago via vale troca e faturado por completo.
-            </p>
+          </p>
           <p><strong>Preço</strong></p>
           <p><br>
             Solicitado o envio de politica de preços cluster, com informação de CNPJ do cliente que terá preço diferente
             da politica default.</br></br>
           </p>
 
-          
-            <p><button type="submit">Distribuidor</button></p>
-            <p class="gg-wp">
-              <br>
+
+          <p><button type="submit">Distribuidor</button></p>
+          <p class="gg-wp">
+            <br>
             Envia preços da politica cluster diferentes dos preços integrados para a política DEFAULT. Deve enviar nesta
             política cluster o cliente cadastrado no pré-rollout.
-            </p>
+          </p>
           <p><strong>Pedidos com politica cluster</strong></p>
           <p><br>
             Realizado diversos cenários de pedidos a fim de abranger todas as possibilidades de pedido real em produção.
             Utilizando preços da politica cluster.</br> <br>
           </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
             <br>
             Envia Pedido boleto a vista, reprovado e cancelado.
-            </p>
-            
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
+          </p>
+
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
             <br>
             Pedido cartão de crédito, reprovado e cancelado.
-            </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
+          </p>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
             <br>
             Pedido boleto 21 dias, reprovado e cancelado.
           </p>
-            
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
+
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
             <br>
             Pedido boleto 28 dias, faturado parcialmente.
-            </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
+          </p>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
             <br>
             Pedido boleto faturado, kit promocional, faturado por completo.
-            </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
+          </p>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
             <br>
             Pedido boleto a vista + vale troca, aprovado e faturado por completo.
           </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
             <br>
             Dois pedidos com pagamento PIX.
           </p>
-            <p><button type="submit">Infracommerce</button></p>
-            <p class="gg-wp">
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
             <br>
             Pedido pago com PIX + Vale troca.
           </p>
@@ -351,14 +360,14 @@
             Solicitado o envio de atualização da politica de preços cluster alem de mover um cliente da politica cluster
             para politica default.</br> <br>
           </p>
-            <p><button type="submit">Distribuidor</button></p>
-            <p class="gg-wp">
-              <br>
+          <p><button type="submit">Distribuidor</button></p>
+          <p class="gg-wp">
+            <br>
             Envia atualização de preço da politica cluster.
-            </p>
-            <p><button type="submit">Distribuidor</button></p>
-            <p class="gg-wp">
-              <br>
+          </p>
+          <p><button type="submit">Distribuidor</button></p>
+          <p class="gg-wp">
+            <br>
             Envio da política default com o CNPJ do cliente presente na política CLUSTER..
           </p>
           <h4>3 - Virada para produção</h4>
