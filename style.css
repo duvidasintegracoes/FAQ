@@ -1099,10 +1099,12 @@ footer .social a:hover {
   height: 20%;
   margin-left: 20%;}
 
-  .gg-wp { 
-    color: #FFA925;
-    font-size: 0.8rem;
-    padding-bottom: 2rem;
+  p.gg-wp { 
+  color: var(--base-color-alt);
+  margin-top: -4%;
+  padding-left: 8%;
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
   }
   .faq pre  {
     font-size: 0.5rem;
@@ -1119,6 +1121,10 @@ footer .social a:hover {
     padding: -1%;
   }
   
+  .faq button {
+    font-size: 0.8rem;
+  }
+
   .capTitle caption {
     font-size: 1rem;
     size: 1px;
