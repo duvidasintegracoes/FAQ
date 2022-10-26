@@ -372,22 +372,66 @@
           <h4>3 - Virada para produção</h4>
           <p><br></p>
           <p>
-            Ao término dos testes de homologação é solicitado os endpoints de produção que serão utilizados pelo Seller,
-            com os endpoints em mãos, é solicitado a abertura do ticket de premissas de PRD à equipe de
-            projetos.</br></br>
+            Ao término dos testes de homologação é solicitado os endpoints de produção que serão utilizados pelo Seller, com os
+            endpoints, por obrigatoriedade, caso o distribuidor utilizar os mesmos endereços/endpoints, é necessário que as
+            credenciais sejam alteradas por questões de segurança.</br></br>
           </p>
           <p>
-            Efetuada a configuração em ambiente de produção com os endpoints e credenciais de ambiente produção do Selle
-            presentes no ticket de premissas de PRD.
+            Efetuamos configuração em ambiente de produção com os endpoints e credenciais de ambiente produção do Seller com as
+            alterações realizadas. Importante nesse momento que do lado do distribuidor, todo seu ambiente seja migrado para o
+            ambiente produtivo.
             <br><br>
           </p>
           <P>
-            Cenários reduzidos de testes abrangendo envio de Estoque, preços, Cadastro de cliente, envio de Status APV,
-            Limite de crédito, emissão de pedido que logo deve ser cancelado e envio massivo de clientes já cadastrados
-            na plataforma que estejam dentro do atendimento por faixa de cep configurados para o Seller(etapa necessária
-            para novos Seller’s na plataforma e não necessário para homologação de melhorias de clientes já em
-            produção). <br><br>
+            Cenários reduzidos de testes abrangendo envio de Estoque, preços, Cadastro de cliente, envio de Status APV, Limite de
+            crédito, emissão de pedido que logo deve ser cancelado e envio massivo de clientes já cadastrados na plataforma que
+            estejam dentro do atendimento por faixa de cep configurados para o Seller(etapa necessária para novos Seller’s na
+            plataforma e não necessário para homologação de melhorias de clientes já em produção). <br><br>
           </P>
+          <p><button type="submit">Distribuidor</button></p>
+          <p class="gg-wp">
+            <br>
+            Carga de estoque, Distribuidor envia carga de estoque, respeitando o limite de 50 em 50 por requisição.
+          </p>
+          <p><button type="submit">Distribuidor</button></p>
+          <p class="gg-wp">
+            <br>
+            Carga de preços, Distribuidor envia carga de politica DEFAULT, respeitando limite de 50 produtos por requisição.
+          </p>
+          <p>
+            <a href="" title="Distribuidores da loja Compra Agora não é necessario essa ação nos testes em produção.">
+            <button type="submit">Infracommerce</button>
+          </a>
+          </p>
+          <p class="gg-wp">
+            <br>
+            Envia um novo cadastro de cliente.
+          </p>
+          <p><button type="submit">Distribuidor</button></p>
+          <p class="gg-wp">
+            <br>
+            Aprova o cliente e envia um limite de crédito.
+          </p>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
+            <br>
+            Envia um pedido pago com boleto a vista e cancelado.
+          </p>
+          <p><button type="submit">Distribuidor</button></p>
+          <p class="gg-wp">
+            <br>
+            Carga de preços, Distribuidor envia carga de politica CLUSTER, respeitando limite de 50 produtos por requisição.
+          </p>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
+            <br>
+            Envia um pedido pago com boleto faturado e cancelado.
+          </p>
+          <p><button type="submit">Infracommerce</button></p>
+          <p class="gg-wp">
+            <br>
+            Realiza o reprocessamento de faixas de cep para o distribuidor.
+          </p>
           <h4>4. Operação assistida (GO Live).</h4>
           <p><br></p>
           <p>
