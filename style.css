@@ -374,7 +374,7 @@ nav.show div.icon-cross {
 .search-box{
   position: absolute;
   top: 0%;
-  left: 85%;
+  left: 87%;
   transform: translate(-50%, 50%);
   background: var(--base-color);
   height: 40px;

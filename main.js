@@ -144,3 +144,32 @@ let li = document.querySelectorAll(".faq-text li");
        clickedLi.classList.toggle("showAnswer");
       });
     }
+
+
+/*---- Search Faq --*/
+/*
+const searchButton = document.getElementById('search-button');
+
+searchButton.addEventListener('click', () => {
+  const inputValue = document.getElementById('search-input').value;
+
+  renderSearchParagraph(inputValue);
+})
+
+let pesquisa = document.querySelectorAll(".search-box");
+
+function searchParagraphsByKeyword(keyword) {
+  const paragraphArray = Array.from(document.getElementsByTagName("p"))
+
+  return paragraphArray.filter(p => p.textContent.includes(keyword));
+}
+
+function renderSearchParagraph(keyword) {
+  const paragraphArray = searchParagraphsByKeyword(keyword);
+
+  const divToRenderElement = document.getElementById('mostrapesquisa');
+
+  divToRenderElement.className = 'active';
+  divToRenderElement = paragraphArray;
+}
+*/
