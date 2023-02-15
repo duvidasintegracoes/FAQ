@@ -74,112 +74,99 @@
                     <ul class="faq-text">
                       <li>
                         <div class="question-arrow">
-                          <span class="question"
-                            >Como desativar um produto no e-commerce?</span
-                          >
+                          <span class="question">
+                            Como configurar uma política de preço diferenciada para um grupo de CNPJs (vision store ou qualquer classificação desejada)?
+                          </span>
                           <i class="bx bxs-chevron-down arrow"></i>
                         </div>
                         <p>
-                          Para inativar um produto na plataforma é esperado
-                          estoque ou preço zero, assim o produto ficará
-                          indisponível para vendas. Para ativar esse produto
-                          novamente basta enviar preço e estoque positivo assim
-                          o mesmo ficará novamente disponível na plataforma.
+                          A configuração deve ser realizada dentro do ERP/Integrador que deverá ser enviada via integração para a plataforma.
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                            Como automatizar o envio massivo do limite de crédito para quando uma loja for cadastrada ela já ter limite?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          A plataforma possibilita receber os limites de crédito de forma antecipada, mesmo que o cliente não esteja cadastrado na plataforma. Utilizar a rotina do ERP que realiza o envio para os clientes desejados, a fim de possibilitar essa antecipação.
                         </p>
                         <span class="line"></span>
                       </li>
                       <li>
                         <div class="question-arrow">
                           <span class="question"
-                            >Se quisermos bloquear a venda nas formas de
-                            pagamento CRL-7,14,21,28, e deixar somente BILL e
-                            CREDIT_CARD ?</span
+                            >Como configurar diferentes políticas de boleto, como boleto escalonado ou prazos diferenciados para determinados grupos de CNPJ de acordo com a política de pagamentos do próprio DB?</span
                           >
                           <i class="bx bxs-chevron-down arrow"></i>
                         </div>
                         <p>
-                          Se o seller enviar preço zerado para CRL7,14 e asssim
-                          por diante, inativa a visualizacao para compra de
-                          boleto faturado. Se mandar preço zerado para o DFL,
-                          indisponibiliza tudo, pois DFL é o critério
-                          obrigatório para o produto aparecer no site.
+                           Deve ser solicitado o cadastro dos prazos de pagamento, por exemplo: Para boleto faturado de 25 dias, solicitar o cadastro de CRL-25. Para boleto faturado parcelado de em 3 parcelas para 10, 20 e 30 dias. Solicitar CRL-10_20_30. </br> Além da solicitação de configuração de preço na plataforma, é necessário o envio de preços para essa nova tabela de preço para todos os produtos SKU dentro da política de preço usada pelo cliente CNPJ.
                         </p>
                         <span class="line"></span>
                       </li>
                       <li>
                         <div class="question-arrow">
                           <span class="question"
-                            >Pedido faturado ou faturar pedido?</span
+                            >Como acompanhar os investimentos de promoções da plataforma e adaptar o sistema para aceitar a diferença de preço enviada sistema DB vs faturada via pedido Reppos?</span
                           >
                           <i class="bx bxs-chevron-down arrow"></i>
                         </div>
                         <p>
-                          Pedido faturado é o boleto a prazo, faturar pedido é
-                          referente ao processo que o distribuidor faz de todo o
-                          fluxo para emitir uma NF-e (Nota fiscal eletrônica).
+                          Via homologação na plataforma, são realizados testes de integração de pedidos contendo promoções variadas. Desta forma é possível identificar que contém promoções no pedido enviado, explicando o valor diferente do preço integrado.
                         </p>
                         <span class="line"></span>
                       </li>
                       <li>
                         <div class="question-arrow">
-                          <span class="question"
-                            >Por que meu cliente não pode comprar a prazo?</span
-                          >
+                          <span class="question">
+                            O que é o período de venda assistida? Como melhor utilizá-lo para tirar dúvidas no processo de integração?
+                          </span>
                           <i class="bx bxs-chevron-down arrow"></i>
                         </div>
                         <p>
-                          Para que um cliente possa comprar a prazo é necessário
-                          que o distribuidor envie um limite de crédito para o
-                          cliente, assim as condições a prazo serão habilitadas.
+                          Venda assistida é diferente de operação assistida. </br>
+                          Venda assistida é a venda feita através de um representante do Seller utilizando a nossa plataforma de vendas. </br>
+                          O periodo de operação assistida é o periodo ideal para acompanhar a operação em produção junto a equipe de testes, que realizou a homologação junto ao DB. 
                         </p>
                         <span class="line"></span>
                       </li>
                       <li>
                         <div class="question-arrow">
-                          <span class="question"
-                            >Como inativar um cliente na loja?</span
-                          >
+                          <span class="question">
+                            Alguns produtos não estão aparecendo no site. Como verificar se todos os pickings e EANs que o DB trabalha estão ativos na plataforma? Como corrigir esse problema?
+                          </span>
                           <i class="bx bxs-chevron-down arrow"></i>
                         </div>
                         <p>
-                          Para que um determinado cliente não possa comprar na
-                          loja é necessário o envio de status do cliente como
-                          “RPV” (Reprovado), assim o cliente fica sem visualizar
-                          as opções de produtos disponibilizadas pelo
-                          distribuidor. Caso queira que esse cliente volte a
-                          comprar basta atualizar o status do cliente para APV
-                          (Aprovado).
+                          Por garantia, sempre efetuar uma nova carga de envio de estoque e preços completos. Após envio, é possivel validar os valores integrados na plataforma. acessando como cliente e validando os preços dos produtos no front end da loja. 
                         </p>
                         <span class="line"></span>
                       </li>
                       <li>
                         <div class="question-arrow">
-                          <span class="question"
-                            >Enviei limite de crédito para o cliente, mas ele
-                            não pode comprar a prazo!</span
-                          >
+                          <span class="question">
+                            Como configurar uma política de preço com incentivo de desconto no portfólio de acordo com o volume comprado? (Desconto logístico)
+                          </span>
                           <i class="bx bxs-chevron-down arrow"></i>
                         </div>
                         <p>
-                          Não é possível. A plataforma entende que qualquer
-                          limite de crédito recebido é apto a ter condições a
-                          prazo disponibilizadas pelo distribuidor que realizou
-                          o envio de crédito para o cliente.
+                          Exemplo: SKU 7891035001208 tem seu picking(quantidade 1) e tem seu preço de R$ 10,00. Informar ao DB que ele pode efetuar o envio da faixa que contém 48 un no SKU 7891035001208C48 com um valor reduzido ao múltiplo simples que seria de R$ 480,00. enviando um percentual de desconto a fim de incentivar a venda do múltiplo.
                         </p>
                         <span class="line"></span>
                       </li>
-                      <li>
+                       <li>
                         <div class="question-arrow">
-                          <span class="question"
-                            >Posso ter preços diferenciados por cliente?</span
-                          >
+                          <span class="question">
+                             Como integrar o pedido com o código do vendedor do DB para garantir acuracidade na informação sem intervenção manual posteriormente?
+                          </span>
                           <i class="bx bxs-chevron-down arrow"></i>
                         </div>
                         <p>
-                          Sim, existe a politica de preço cluster para essa
-                          ação, onde é enviado nesta política os CNPJ dos
-                          clientes que terão aquelas condições diferenciadas de
-                          pagamento e preço.
+                          Efetuando o pedido pelo painel do vendedor, via venda assistida.
                         </p>
                         <span class="line"></span>
                       </li>
