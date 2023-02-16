@@ -46,7 +46,7 @@
               <a class="title" href="#box2">Dúvidas sobre erros frequentes</a>
             </li>
             <li><a class="title" href="#box3">Dúvidas sobre vendedores</a></li>
-            <li><a class="title" href="#box4"></a></li>
+            <li><a class="title" href="#box4">Dúvidas gerais</a></li>
             <!--<li><a class="title" href="#box5">Prazos</a></li>-->
           </ul>
         </div>
@@ -401,9 +401,78 @@
 
       <section class="section" id="box4">
         <div class="container grid">
-          <div class="faq">
-            <h2 class="title">x</h2>
+          <!--Dúvidas frequentes-->
+          <div class="container grid">
+        <div class="questionfaq">
+          <div class="accordion">
+            <div class="image-box">
+              <img src="./assets/img/geral.svg" alt="">
+            </div>
+            <div class="accordion-text">
+              <div class="title">Dúvidas gerais</div>
+            <ul class="faq-text">
+              <li>
+                <div class="question-arrow">
+                  <span class="question">1). Como desativar um produto no e-commerce?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Para inativar um produto na plataforma é esperado estoque ou preço zero, assim o produto ficará indisponível para vendas. Para ativar esse produto novamente basta enviar preço e estoque positivo assim o mesmo ficará novamente disponível na plataforma.</p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">2). Se quisermos bloquear a venda nas formas de pagamento CRL-7,14,21,28, e deixar somente BILL e CREDIT_CARD ?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Se o seller enviar preço zerado para CRL7,14 e asssim por diante, inativa a visualizacao para compra de boleto faturado. Se mandar preço zerado para o DFL, indisponibiliza tudo, pois DFL é o critério obrigatório para o produto aparecer no site.</p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">Pedido faturado ou faturar pedido?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Pedido faturado é o boleto a prazo, faturar pedido é referente ao processo que o distribuidor faz de todo o fluxo para emitir uma NF-e (Nota fiscal eletrônica).</p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">3). Por que meu cliente não pode comprar a prazo?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Para que um cliente possa comprar a prazo é necessário que o distribuidor envie um limite de crédito para o cliente, assim as condições a prazo serão habilitadas.</p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">4). Como inativar um cliente na loja?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Para que um determinado cliente não possa comprar na loja é necessário o envio de status do cliente como “RPV” (Reprovado), assim o cliente fica sem visualizar as opções de produtos disponibilizadas pelo distribuidor. Caso queira que esse cliente volte a comprar basta atualizar o status do cliente para APV (Aprovado).</p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">5). Enviei limite de crédito para o cliente, mas ele não pode comprar a prazo!</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Não é possível. A plataforma entende que qualquer limite de crédito recebido é apto a ter condições a prazo disponibilizadas pelo distribuidor que realizou o envio de crédito para o cliente.</p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">6). Posso ter preços diferenciados por cliente?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Sim, existe a politica de preço cluster para essa ação, onde é enviado nesta política os CNPJ dos clientes que terão aquelas condições diferenciadas de pagamento e preço.</p>
+                <span class="line"></span>
+              </li>
+            </ul>
+            </div>
           </div>
+        </div>
+      </div>
+          <!--Dúvidas frequentes fim-->
         </div>
       </section>
 
