@@ -209,6 +209,88 @@
                         </p>
                         <span class="line"></span>
                       </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                             10). O que é necessário enviar para que o produto seja desativado no site?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Existem duas formas, sugerimos que as duas sejam feitas: <br><br>
+                          •	Enviar estoque 0(zero) para o produto. <br>
+                          •	Enviar preço 0 (zero) para o produto. <br><br>
+                          Para voltar a comercializar esse produto, basta realizar o envio de estoque e preço com valor maior que deseja.
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                             11). Como faço para mover um cliente para uma nova política? É necessário enviar todos os preços novamente?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Utilizando o exemplo 3.5 do manual (Inclusão de clientes para uma política de preço), neste exemplo é enviado 3 clientes para a política desejada. <br><br>
+                          Não há necessidade de enviar produtos e preços novamente, a plataforma sempre armazena a última requisição enviada e recomendamos que atualizações de novos clientes, produtos e tabelas de preços sejam realizadas conforme a necessidade, esse processo também otimiza a fila o tempo de integração.
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                             12). Os clientes que já tenho na minha base já possuem cadastro da plataforma infracommerce?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Pode ser que o cliente de seu ERP já tenha cadastro em nossa plataforma, porém temos que ressaltar que todos os clientes da plataforma infracommerce é enviado para o seu ambiente, Tendo ciência que isso possa ocorrer, existe a possibilidade dele ser enviado novamente (podendo ter o cadastro sobrescrito). <br><br>
+                          <strong>OBS</strong>: Caso os dados do cliente não devam ser sobrescritos, o distribuidor deverá realizar uma tratativa (Parametrização) para que os dados não sejam atualizados.
+
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                             13). Posso enviar uma NFS mais de uma vez?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Um pedido pode receber várias notas fiscais. <br><br>
+                          Exemplo: <br>
+                          Caso um pedido possua itens bonificados, o distribuidor pode enviar duas notas fiscais, sendo uma para os itens cobrados e outra para os ítens bonificados. <br><br>
+                          <strong> Importante</strong>: Após enviar a tracking de FAT nenhuma nota fiscal poderá ser integrada, uma vez que ela indica o encerramento do faturamento.
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                             14). Posso faturar um pedido cancelado?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Não, um pedido cancelado encerra completamente o fluxo de novas trackings.
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                             15). Como fazer com que um cliente não possa efetuar pedidos na plataforma?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Para que um cliente não possa efetuar pedido na plataforma é necessário enviar o status RPV (Reprovado) via integração, assim ele não conseguirá efetuar nenhum tipo de compra na plataforma. <br><br>
+                          <strong>OBS</strong>: Caso queira habilitar esse cliente para realizar compras novamente é necessário enviar o status APV (aprovado).
+                        </p>
+                        <span class="line"></span>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -280,6 +362,45 @@
                         </div>
                         <p>
                           Envio da tracking NFS com erro pode ser corrigido com um novo envio, desde que não tenha ocorrido a integração da tracking FAT. Após a integração de FAT, não é mais possível a integração de qualquer outra NFS. Caso necessário, deve ser aberto um chamado ao nosso time de NRP.
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                            5). Por que não consigo efetuar um pedido de boleto faturado sendo que o cliente possui limite de crédito ou status APV? (nunca as duas informações).
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Sempre tentar efetuar um novo envio de limite para esse cliente e caso não apareça verificar se o distribuidor efetuou o envio de preços para os meios de pagamentos que ele deseja efetuar o pedido.  <br><br>
+                          Se mesmo assim não estiver disponível deve ser verificado se os tipos de pagamento estão habilitados para o distribuidor (Essa verificação deve ser realizada via NRP).
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                            6). Porque o cliente está visualizando os preços errados ou de outra política de preço?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Sempre deve ser verificado os preços enviados para a plataforma e verificar se esse cliente está atribuído a uma política que não deveria, seja por uma falha no envio, ou outro motivo, mas é possível corrigir enviando uma requisição de preços para plataforma que faça a inclusão do cliente para a política desejada. Utilize o exemplo 3.5 do manual de integração B2B (Exemplo de inclusão de clientes a uma política) para essa tarefa.
+                        </p>
+                        <span class="line"></span>
+                      </li>
+                      <li>
+                        <div class="question-arrow">
+                          <span class="question">
+                             7). É possível excluir alguma requisição enviada erroneamente?
+                          </span>
+                          <i class="bx bxs-chevron-down arrow"></i>
+                        </div>
+                        <p>
+                          Não, as requisições não podem ser excluídas, mas muitas podem ser corrigidas. <br><br>
+                          Exemplo: <br>
+                          Envio de estoque incorreto, o que fazer? enviar uma nova requisição com o valor correto, ele sobrescreverá o valor  enviado anteriormente.
                         </p>
                         <span class="line"></span>
                       </li>
@@ -465,6 +586,85 @@
                   <i class="bx bxs-chevron-down arrow"></i>
                 </div>
                 <p>Sim, existe a politica de preço cluster para essa ação, onde é enviado nesta política os CNPJ dos clientes que terão aquelas condições diferenciadas de pagamento e preço.</p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">7). Funcionamento das políticas de preço.</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Possibilita trabalhar com múltiplos preços para os clientes (Consumidor final) através do envio de políticas de preços distintas, como por exemplo: <br><br>
+                  Distribuidor envia uma política default, essa será aplicada para todos os clientes como padrão, e pode enviar uma segunda política com preços diferentes da default atribuindo para 1 ou N clientes.
+                  </p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">8). O que seria o faturamento parcial?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Faturamento parcial é o faturamento de uma quantidade menor que a quantidade comprada pelo cliente. <br> <br>
+                  Exemplo: <br>
+                  Um pedido foi realizado com 10 unidades de um produto, porém, o distribuidor possui apenas 9 unidades em seu estoque, para não perder essa venda é possível faturar os 9 itens para o consumidor. <br><br>
+                  Ponto de atenção: O envio da nota fiscal (NFS) para a plataforma deve constar 9 itens faturados.                  
+                  </p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">9). Como identificar uma promoção (desconto) aplicado em um produto na requisição de pedido?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>
+                  No pedido enviado via-plataforma são descritas as características e informações pertinentes ao desconto. <br><br>
+                  Exemplo: <br><br>
+                  Tag <strong>totalDiscountAmount</strong> - que informa o total de descontos que o pedido possui.  <br><br>
+                  Tag <strong>promotionList</strong> - lista de informações pertinentes ao produto que está com promoção. <br><br>
+                  Assim como também pode ser verificado no nome da promoção, tipo de promoção etc. Toda particularidade pertinente ao tipo de pedido sempre será enviada nos campos do XML. É essencial que o ERP esteja tratado para distinguir essas informações, por este motivo é muito importante tratá-las na etapa de testes.           
+                  </p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">10). O que seria o kit bonificado?</span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>
+                  É um pedido que foi realizado no modelo de combo. <br><br>
+                  Exemplo: <br>
+                  Compre 1 e leve 2. Nesse caso um dos itens deve ser bonificado, sendo faturado com o valor igual a zero na nota (Nota Bonificada) que é enviada para a plataforma. <br><br>
+                  O distribuidor também deve informar na nota o código do kitSkuId, que deve ser identificado no XML do pedido. <br><br>
+                  Vale ressaltar que um produto do tipo bonificado é identificado no pedido através da tag “skuType”. Podemos identificar quando o texto neste campo for igual a FFR, assim podemos saber quando o produto é bonificado ou não. <br><br>
+                  
+                  OBS: Os demais itens que não forem BONIFICADOS dentro do pedido, devem ser faturados normalmente dentro do pedido.
+                                   
+                  </p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">
+                    11). O que é o reprocessamento das faixas de CEP?
+                    </span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>
+                  É o envio massivo de clientes da plataforma infracommerce para o ERP do seller que pertencem a área de atendimento do distribuidor. <br><br>
+                  <strong> Exemplo</strong>: Distribuidor atende o range de faixa de CEP 1000000 a 200000, esses clientes que foram cadastrados anteriormente na plataforma Infracommerce serão enviados via requisição para o seller. <br><br>
+                  <strong>Importante</strong>: Caso o distribuidor já possua o cadastro desses clientes em seu ERP e deseja que os dados cadastrais não sejam alterados, será necessário fazer essa tratativa dentro da integração/ERP para os dados que não desejam ser atualizados.                          
+                </p>
+                <span class="line"></span>
+              </li>
+              <li>
+                <div class="question-arrow">
+                  <span class="question">
+                    12). Posso faturar um pedido feito com produtos com caixa, faturando em unidade?
+                    </span>
+                  <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>
+                  Não. Produtos em unidade e caixa são gerenciados de forma distinta na plataforma, portanto o envio da nota fiscal devem ser realizados com as SKU`s da mesma forma que são enviados no pedido. (Se for unitário, faturar o unitário, se for caixa faturar a caixa). Caso esses ítens não estejam em conformidade, haverá divergências em repasses e ruptura do pedido.
+                </p>
                 <span class="line"></span>
               </li>
             </ul>
