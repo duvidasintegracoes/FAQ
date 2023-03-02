@@ -101,7 +101,26 @@ function activateMenuAtCurrentSection() {
     }
   }
 }
+/* Função pesquisa EDUARDA */
+$(function () {
+  $('#search-input').keyup(function () {
+    var texto = $(this).val()
+    $(document.getElementsByTagName('p')).each(function () {
+      var resultado = $(this)
+        .text()
+        .toUpperCase()
+        .indexOf(' ' + texto.toUpperCase())
 
+      if (resultado < 0) {
+        $(this).fadeOut()
+      } else {
+        $(this).fadeIn()
+      }
+    })
+  })
+})
+
+/* Fim função pesquisa EDUARDA */
 /* When Scroll */
 window.addEventListener('scroll', function () {
   changeHeaderWhenScroll()

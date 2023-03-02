@@ -375,6 +375,8 @@ nav.show div.icon-cross {
 
 .search-box{
   position: absolute;
+  width: 150  px;
+  padding: 0 10px;
   top: 0%;
   left: 87%;
   transform: translate(-50%, 50%);
@@ -384,15 +386,22 @@ nav.show div.icon-cross {
   padding: 0;
 }
 
-.search-box:hover > input {
-  width: 200px;
+.search-box > input {
+  width: 150px;
   padding: 0 10px;
 }
 
-.search-box:hover > .iconJonathaOliveira{
+.search-box:hover > input {
+  width: 150px;
+  padding: 0 2px;
+}
+
+
+.search-box > .iconJonathaOliveira{
   background-color: #fff;
   color: var(--base-color);
 }
+
 
 .iconJonathaOliveira {
   color: #fff;
@@ -424,6 +433,10 @@ input {
   font-size: 1.1rem;
   transition: 0.5s ease;
   line-height: 40px;
+  color: #fff;
+}
+
+input::placeholder {
   color: #fff;
 }
 
@@ -640,6 +653,32 @@ pre.preformatado {
 .accordion-text li.showAnswer p{
   display: block;
 }
+@media (max-width: 1366px) {
+  /*==== Search ====*/
+
+.search-box{
+  position: absolute;
+  width: 150  px;
+  padding: 0 10px;
+  top: 80%;
+  left: 84%;
+  transform: translate(-50%, 50%);
+  background: var(--base-color);
+  height: 40px;
+  border-radius: 40px;
+  padding: 0;
+}
+
+.search-box > input {
+  width: 150px;
+  padding: 0 10px;
+}
+
+.search-box:hover > input {
+  width: 150px;
+  padding: 0 2px;
+}
+}
 
 @media (max-width: 994px) {
 
@@ -685,6 +724,33 @@ pre.preformatado {
   }
 }
 @media (max-width: 538px) {
+
+   /*==== Search ====*/
+
+.search-box{
+  display: none;
+  position: absolute;
+  width: 150  px;
+  padding: 0 10px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background: var(--base-color);
+  height: 40px;
+  border-radius: 40px;
+  padding: 0;
+}
+
+.search-box > input {
+  width: 150px;
+  padding: 0 10px;
+}
+
+.search-box:hover > input {
+  width: 150px;
+  padding: 0 2px;
+}
+
   .accordion{
     padding: 25px;
   }
